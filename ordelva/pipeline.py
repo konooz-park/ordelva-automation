@@ -328,3 +328,31 @@ def dry_run(n=1):
     _log_run({"date": str(datetime.date.today()), "kind": "dry-run", "results": results})
     log.info("dry run: %s", results)
     return results
+
+
+def private_test(pid):
+    """Render + strict QA + upload as PRIVATE + verify on the channel. Never switches to public."""
+    from .render import render
+    from .thumbnail import make
+    from .autoqa import decide
+    from . import youtube
+    render(pid)
+    make(pid)
+    rep = decide(pid)
+    entry = {"date": str(datetime.date.today()), "topic": pid, "format": "short", "kind": "private-test", "id": pid,
+             "decision": rep["decision"]}
+    if rep["decision"] != "publish":
+        entry["result"] = "hold"
+        entry["failures"] = rep["essential_failures"][:10]
+        _log_run(entry)
+        notify.alert(f"Private test held by QA: {pid}", "\n".join("- " + x for x in rep["essential_failures"]), pid)
+        return entry
+    vid = youtube.upload(pid, privacy="private", autonomous=True)
+    ver = youtube.verify(vid, expect_privacy="private")
+    state.upsert_video(pid, youtube_id=vid, url=f"https://www.youtube.com/watch?v={vid}",
+                       privacy=ver.get("privacyStatus"), verified=ver, status="uploaded-private-test")
+    entry.update(result="private-ok" if ver.get("ok") else "error", url=ver.get("url") or f"https://youtu.be/{vid}",
+                 verify=ver)
+    _log_run(entry)
+    log.info("private test: %s", entry)
+    return entry

@@ -147,6 +147,11 @@ def main(argv=None):
             ok = cmd_check(a)
             print("channel:", channel_identity())
             sys.exit(0 if ok else 1)
+        elif a.mode == "private-test":
+            r = pipeline.private_test(a.id)
+            print(json.dumps(r, indent=1, default=str))
+            if r.get("result") != "private-ok":
+                sys.exit(1)
         elif a.mode == "dry-run":
             print(json.dumps(pipeline.dry_run(1), indent=1))
         elif a.mode == "stats":
