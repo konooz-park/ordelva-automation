@@ -22,7 +22,17 @@ def transcribe(wav, model_size=None):
     dev = cfg.get("whisper_device", "cpu")          # "cuda" only if NVIDIA + CUDA 12/cuDNN 9 are installed
     m = WhisperModel(model_size or cfg.get("whisper_model", "base.en"), device=dev,
                      compute_type="float16" if dev == "cuda" else "int8")
-    segs, _ = m.transcribe(wav, word_timestamps=True, vad_filter=False)
+    # decode ourselves (soundfile + scipy) instead of PyAV: newer PyAV releases broke faster-whisper's decoder
+    import numpy as np
+    import soundfile as sf
+    from scipy.signal import resample_poly
+    from math import gcd
+    audio, sr = sf.read(wav, dtype="float32", always_2d=True)
+    audio = audio.mean(axis=1)
+    if sr != 16000:
+        g = gcd(sr, 16000)
+        audio = resample_poly(audio, 16000 // g, sr // g).astype(np.float32)
+    segs, _ = m.transcribe(audio, word_timestamps=True, vad_filter=False, language="en")
     words = []
     for s in segs:
         for w in s.words:
