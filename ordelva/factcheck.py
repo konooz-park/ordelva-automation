@@ -37,6 +37,26 @@ def numbers(text):
     return out
 
 
+def _sentences(text):
+    return [x.strip() for x in re.split(r"(?<=[.!?])\s+|\n+", text) if len(x.strip()) > 20]
+
+
+_STOP = set("the a an of and or in on at to for from by with was were is are it its this that as be been has had have "
+            "which who whom into over under than then there their they he she his her not no but also about".split())
+
+
+def _words(s):
+    return {w for w in re.findall(r"[a-z0-9]+", s.lower()) if w not in _STOP and len(w) > 2}
+
+
+def evidence(statement, source_text, k=3):
+    """Top-k source sentences by content-word overlap (simple retrieval)."""
+    sw = _words(statement)
+    scored = sorted(((len(sw & _words(x)) / (len(sw) or 1), i, x) for i, x in enumerate(_sentences(source_text))),
+                    reverse=True)[:k]
+    return " ".join(x for _, _, x in sorted(scored, key=lambda t: t[1]))
+
+
 def check(spec, source_text, use_llm=True):
     from .llm import judge_claims, uncovered_statements
     facts = spec.get("facts", [])
@@ -60,11 +80,21 @@ def check(spec, source_text, use_llm=True):
             details.append({"number": n, "note": "in source text but not in a cited quote"})
     if use_llm and facts:
         verdicts = judge_claims([(f["claim"], f.get("quote", "")) for f in facts])
+        retry = [i for i, v in enumerate(verdicts) if v.get("verdict") != "SUPPORTED"]
+        if retry:   # second look with the best-matching source sentences instead of the single quote
+            v2 = judge_claims([(facts[i]["claim"], evidence(facts[i]["claim"], source_text)) for i in retry])
+            for i, v in zip(retry, v2):
+                if v.get("verdict") == "SUPPORTED":
+                    verdicts[i] = v
         for f, v in zip(facts, verdicts):
             f["verdict"] = v.get("verdict")
             if v.get("verdict") != "SUPPORTED":
                 problems.append(f"claim {v.get('verdict')}: {f['claim'][:90]} ({v.get('why', '')[:80]})")
         unc = uncovered_statements(narration, [f["claim"] for f in facts])
-        for u in unc:
-            problems.append(f"statement without source: {u[:120]}")
+        if unc:     # statements not listed as claims must still be supported by the source text itself
+            v3 = judge_claims([(u, evidence(u, source_text)) for u in unc])
+            for u, v in zip(unc, v3):
+                details.append({"extra_statement": u, "verdict": v.get("verdict")})
+                if v.get("verdict") != "SUPPORTED":
+                    problems.append(f"statement without source: {u[:120]} ({v.get('why', '')[:80]})")
     return {"ok": not problems, "problems": problems, "details": details}
