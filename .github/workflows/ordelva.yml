@@ -17,7 +17,6 @@ on:
 permissions:
   contents: write     # commit state/ (history, analytics, QA reports)
   issues: write       # alerts + weekly reports
-  models: read        # GitHub Models (free LLM tier) via GITHUB_TOKEN
 
 concurrency:
   group: ordelva-production
@@ -54,6 +53,21 @@ jobs:
             assets/data/*.gz
             ~/.cache/huggingface
           key: ordelva-assets-v1
+
+      - name: Cache LLM weights
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-qwen2.5-7b-v1
+
+      - name: Local LLM (Ollama + Qwen2.5-7B, free)
+        if: env.MODE == 'daily' || env.MODE == 'dry-run'
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          sudo systemctl stop ollama 2>/dev/null || true
+          OLLAMA_MODELS=$HOME/.ollama/models nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -s localhost:11434/api/tags >/dev/null && break; sleep 2; done
+          OLLAMA_MODELS=$HOME/.ollama/models ollama pull qwen2.5:7b
 
       - name: Python packages
         run: pip install -r requirements.txt
