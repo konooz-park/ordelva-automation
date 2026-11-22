@@ -3,9 +3,10 @@
   "autonomous": true,
   "default_privacy": "public",
   "allow_public_publish": true,
-  "llm_backend": "auto",
+  "llm_backend": "ollama",
   "whisper_model": "base.en",
   "whisper_device": "cpu",
   "longs_enabled": false,
-  "youtube_channel_id": "UCAK-bKBqIq0Yy9L4ctKBkSw"
+  "youtube_channel_id": "UCAK-bKBqIq0Yy9L4ctKBkSw",
+  "ollama_model": "qwen2.5:7b"
 }

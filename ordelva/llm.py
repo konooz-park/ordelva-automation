@@ -1,7 +1,6 @@
-"""LLM access. Two free backends:
-  * GitHub Models (in GitHub Actions, authenticated by the workflow's own GITHUB_TOKEN with
-    `models: read`; free tier, rate-limited – roughly 150 requests/day for low-tier models).
-  * Ollama (local, on the Windows PC).
+"""LLM access. Default backend: Ollama running Qwen2.5-7B (Apache-2.0) locally – on the GitHub Actions
+runner in the cloud, or on the Windows PC. Free, no API key, no rate limits.
+(GitHub Models was retired on 30 July 2026; the code path is kept only for compatibility.)
 The LLM never decides facts on its own: it writes only from fetched research text, and every claim
 must carry a verbatim quote that factcheck.py verifies deterministically.
 """
@@ -56,7 +55,7 @@ def _github(messages, temperature, fmt_json):
 
 def _ollama(messages, temperature, fmt_json):
     cfg = load_config()
-    r = requests.post(f'{cfg["ollama_url"]}/api/chat', timeout=900, json={
+    r = requests.post(f'{cfg["ollama_url"]}/api/chat', timeout=1800, json={
         "model": cfg["ollama_model"], "stream": False, "format": "json" if fmt_json else "",
         "options": {"temperature": temperature, "num_ctx": 12288}, "messages": messages})
     r.raise_for_status()

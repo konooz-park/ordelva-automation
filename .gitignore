@@ -14,4 +14,4 @@ client_secret*.json
 token*.json
 .env
 logs/
-state.json
+/state.json
