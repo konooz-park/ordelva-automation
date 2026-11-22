@@ -1,0 +1,89 @@
+name: ORDELVA production
+
+on:
+  schedule:
+    - cron: "17 13 * * *"     # daily production + publishing (13:17 UTC = 8:17 New York / 13:17 London)
+    - cron: "43 6 * * 1"      # weekly report, Monday 06:43 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily | publish-existing | report | check | stats"
+        default: daily
+        type: choice
+        options: [daily, publish-existing, report, check, stats]
+      id:
+        description: "project id for publish-existing"
+        default: doggerland-short
+
+permissions:
+  contents: write     # commit state/ (history, analytics, QA reports)
+  issues: write       # alerts + weekly reports
+  models: read        # GitHub Models (free LLM tier) via GITHUB_TOKEN
+
+concurrency:
+  group: ordelva-production
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '43 6 * * 1' && 'report' || 'daily') || inputs.mode }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Cache models and assets
+        uses: actions/cache@v4
+        with:
+          path: |
+            models
+            assets/fonts/*.ttf
+            assets/data/*.gz
+            ~/.cache/huggingface
+          key: ordelva-assets-v1
+
+      - name: Python packages
+        run: pip install -r requirements.txt
+
+      - name: Assets (checksum-verified)
+        run: python -m ordelva.cli bootstrap
+
+      - name: Run ORDELVA (${{ env.MODE }})
+        run: python -m ordelva.cli cloud --mode "$MODE" --id "${{ inputs.id || 'doggerland-short' }}"
+
+      - name: Save state (history, QA reports, analytics)
+        if: always()
+        run: |
+          git config user.name "ordelva-bot"
+          git config user.email "ordelva-bot@users.noreply.github.com"
+          git add -A state projects
+          [ -d reports ] && git add -A reports || true
+          git diff --cached --quiet || git commit -m "ORDELVA run ${{ github.run_id }} ($MODE)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break || sleep 5; done
+
+      - name: Keep rendered videos for 14 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_id }}
+          path: output/*.mp4
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Alert on failure
+        if: failure()
+        run: python -c "from ordelva import notify; notify.alert('Workflow failed (${{ env.MODE }})', 'The scheduled run failed. Open the run log for details.')"
