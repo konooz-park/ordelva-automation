@@ -29,5 +29,16 @@
     "decision": "hold"
    }
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dry-run",
+  "results": [
+   {
+    "topic": "Voynich manuscript",
+    "id": "20261122-voynich-manuscript",
+    "decision": "hold"
+   }
+  ]
  }
 ]
