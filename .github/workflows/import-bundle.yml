@@ -1,0 +1,28 @@
+name: import-bundle
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        required: true
+      sha256:
+        required: true
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download, verify and commit code bundle
+        env:
+          FILE_ID: ${{ inputs.file_id }}
+          SHA: ${{ inputs.sha256 }}
+        run: |
+          curl -fsSL -o /tmp/b.tgz "https://drive.usercontent.google.com/download?id=${FILE_ID}&export=download&confirm=t"
+          echo "${SHA}  /tmp/b.tgz" | sha256sum -c -
+          tar -xzf /tmp/b.tgz
+          git config user.name ordelva-bot
+          git config user.email ordelva-bot@users.noreply.github.com
+          git add -A
+          git commit -m "Import ORDELVA code bundle ${SHA:0:12}"
+          git push
