@@ -64,6 +64,11 @@
       "check": "assets_have_licences",
       "ok": true,
       "detail": "5 assets with licence"
+    },
+    {
+      "check": "transcript_matches_script",
+      "ok": true,
+      "detail": "Whisper match 0.90"
     }
   ]
 }

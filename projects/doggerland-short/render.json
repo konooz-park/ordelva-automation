@@ -1,6 +1,6 @@
 {
   "seconds": 59.48,
-  "render_seconds": 459.2,
-  "whisper_match": null,
+  "render_seconds": 600.1,
+  "whisper_match": 0.9039145907473309,
   "output": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4"
 }

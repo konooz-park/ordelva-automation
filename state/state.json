@@ -18,13 +18,13 @@
       "title": "The Lost Land That Once Connected Britain to Europe",
       "format": "short",
       "status": "held",
-      "updated": "2026-11-22 14:18",
+      "updated": "2026-11-22 14:36",
       "file": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4",
       "seconds": 59.47,
       "qa_passed": true,
       "lufs": -14.0,
       "qa_failures": [
-        "audio/captions: Whisper check could not run (open() got an unexpected keyword argument 'metadata_errors')"
+        "captions: out of sync (median 0.0s, p90 0.0s)"
       ]
     }
   },

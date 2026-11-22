@@ -1,7 +1,7 @@
 {
  "decision": "hold",
  "essential_failures": [
-  "audio/captions: Whisper check could not run (open() got an unexpected keyword argument 'metadata_errors')"
+  "captions: out of sync (median 0.0s, p90 0.0s)"
  ],
  "warnings": [],
  "technical": {
@@ -70,6 +70,11 @@
     "check": "assets_have_licences",
     "ok": true,
     "detail": "5 assets with licence"
+   },
+   {
+    "check": "transcript_matches_script",
+    "ok": true,
+    "detail": "Whisper match 0.90"
    }
   ]
  },
@@ -79,7 +84,9 @@
   "note": "manually verified script"
  },
  "whisper": {
-  "error": "open() got an unexpected keyword argument 'metadata_errors'"
+  "transcript_match": 0.904,
+  "sync_median_s": 0.0,
+  "sync_p90_s": 0.0
  },
  "picture": {
   "long_freezes": []

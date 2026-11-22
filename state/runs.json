@@ -52,5 +52,17 @@
   "failures": [
    "audio/captions: Whisper check could not run (open() got an unexpected keyword argument 'metadata_errors')"
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "topic": "doggerland-short",
+  "format": "short",
+  "kind": "private-test",
+  "id": "doggerland-short",
+  "decision": "hold",
+  "result": "hold",
+  "failures": [
+   "captions: out of sync (median 0.0s, p90 0.0s)"
+  ]
  }
 ]
