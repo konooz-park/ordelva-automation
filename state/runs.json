@@ -64,5 +64,28 @@
   "failures": [
    "captions: out of sync (median 0.0s, p90 0.0s)"
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "topic": "doggerland-short",
+  "format": "short",
+  "kind": "private-test",
+  "id": "doggerland-short",
+  "decision": "publish",
+  "result": "private-ok",
+  "url": "https://www.youtube.com/watch?v=8b7HzWSom-I",
+  "verify": {
+   "id": "8b7HzWSom-I",
+   "channel_ok": true,
+   "uploadStatus": "processed",
+   "privacyStatus": "private",
+   "failureReason": null,
+   "rejectionReason": null,
+   "embeddable": true,
+   "duration": "PT1M",
+   "processing": "succeeded",
+   "ok": true,
+   "url": "https://www.youtube.com/watch?v=8b7HzWSom-I"
+  }
  }
 ]

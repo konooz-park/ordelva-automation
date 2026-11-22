@@ -1,8 +1,6 @@
 {
- "decision": "hold",
- "essential_failures": [
-  "captions: out of sync (median 0.0s, p90 0.0s)"
- ],
+ "decision": "publish",
+ "essential_failures": [],
  "warnings": [],
  "technical": {
   "video": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4",

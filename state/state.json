@@ -17,15 +17,29 @@
       "created": "2026-11-22 14:10",
       "title": "The Lost Land That Once Connected Britain to Europe",
       "format": "short",
-      "status": "held",
-      "updated": "2026-11-22 14:36",
+      "status": "uploaded-private-test",
+      "updated": "2026-11-22 15:41",
       "file": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4",
       "seconds": 59.47,
       "qa_passed": true,
       "lufs": -14.0,
-      "qa_failures": [
-        "captions: out of sync (median 0.0s, p90 0.0s)"
-      ]
+      "qa_failures": [],
+      "youtube_id": "8b7HzWSom-I",
+      "url": "https://www.youtube.com/watch?v=8b7HzWSom-I",
+      "privacy": "private",
+      "verified": {
+        "id": "8b7HzWSom-I",
+        "channel_ok": true,
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "failureReason": null,
+        "rejectionReason": null,
+        "embeddable": true,
+        "duration": "PT1M",
+        "processing": "succeeded",
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=8b7HzWSom-I"
+      }
     }
   },
   "errors": [],
