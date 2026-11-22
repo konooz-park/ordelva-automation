@@ -9,24 +9,27 @@ import re
 from pathlib import Path
 import requests
 
-UA = {"User-Agent": "ORDELVA-Automation/1.0 (documentary research; contact via GitHub repo)"}
+UA = {"User-Agent": "ORDELVA-Automation/1.1 (https://github.com/konooz-park/ordelva-automation; documentary research bot) python-requests",
+      "Accept": "application/json", "Api-User-Agent": "ORDELVA-Automation/1.1 (https://github.com/konooz-park/ordelva-automation)"}
 WP = "https://en.wikipedia.org/w/api.php"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 OK_LICENCES = re.compile(r"^(public domain|pd|cc0|cc by(-sa)? ?[1-4]\.0|cc by(-sa)?$|cc-by|cc-by-sa)", re.I)
 BAD_LICENCE = re.compile(r"(nc|nd|fair use|non-free)", re.I)
 
 
-def _get(url, params, tries=4):
+def _get(url, params, tries=5):
     import time
+    last = ""
     for k in range(tries):
         try:
             r = requests.get(url, params=params, headers=UA, timeout=40)
             if r.status_code == 200:
                 return r.json()
-        except requests.RequestException:
-            pass
+            last = f"HTTP {r.status_code}: {r.text[:200]}"
+        except (requests.RequestException, ValueError) as e:
+            last = str(e)[:200]
         time.sleep(2 ** k)
-    raise RuntimeError(f"request failed: {url}")
+    raise RuntimeError(f"request failed: {url} ({last})")
 
 
 def article(title):

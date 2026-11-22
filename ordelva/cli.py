@@ -89,10 +89,9 @@ def main(argv=None):
         for i in ideas(a.n):
             print(f"- {i.get('title')}  [{i.get('format')}]  ({i.get('wikipedia_title')})")
     elif a.cmd == "draft":
-        from .llm import fetch_research, draft_spec
-        notes, sources = fetch_research(a.wiki_title)
-        draft_spec(a.id, a.title or a.wiki_title, notes, sources, a.format)
-        print(f"Draft written: projects/{a.id}/spec.json  -> review facts, then: ordelva media {a.id} ; ordelva render {a.id}")
+        from .pipeline import produce
+        pid, decision = produce({"title": a.wiki_title, "pillar": None}, a.format)
+        print(f"{pid}: {decision}  (see projects/{pid}/autoqa.json)")
     elif a.cmd == "media":
         from .stock import fetch_for_spec
         fetch_for_spec(a.id)

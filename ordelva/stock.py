@@ -11,7 +11,7 @@ import os
 import requests
 from .config import PROJECTS, load_config
 
-UA = {"User-Agent": "ORDELVA-Automation/1.0"}
+UA = {"User-Agent": "ORDELVA-Automation/1.1 (https://github.com/konooz-park/ordelva-automation)"}
 OK_LICENCES = ("public domain", "pd", "cc0", "cc by", "cc-by")
 
 
