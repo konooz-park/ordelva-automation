@@ -8,5 +8,15 @@
     "error": "request failed: https://en.wikipedia.org/w/api.php"
    }
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dry-run",
+  "results": [
+   {
+    "topic": "Voynich manuscript",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
  }
 ]
