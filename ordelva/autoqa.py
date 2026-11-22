@@ -88,7 +88,7 @@ def decide(pid, source_text=None, fact_report=None):
                             " ".join(b.get("say", b["text"]) for b in spec["beats"]))
         if wq["transcript_match"] < 0.90:
             essential.append(f"audio: narration transcript matches script only {wq['transcript_match']:.0%}")
-        if wq["sync_median_s"] is None or wq["sync_median_s"] > 0.25 or (wq["sync_p90_s"] or 9) > 0.7:
+        if wq["sync_median_s"] is None or wq["sync_median_s"] > 0.25 or wq["sync_p90_s"] is None or wq["sync_p90_s"] > 0.7:
             essential.append(f"captions: out of sync (median {wq['sync_median_s']}s, p90 {wq['sync_p90_s']}s)")
     except Exception as e:
         wq = {"error": str(e)}
