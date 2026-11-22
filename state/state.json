@@ -5,11 +5,11 @@
       "created": "2026-11-22 12:57",
       "title": "Voynich manuscript",
       "format": "short",
-      "status": "researching",
+      "status": "held",
       "pillar": "history",
-      "updated": "2026-11-22 14:21",
+      "updated": "2026-11-22 21:09",
       "qa_failures": [
-        "narration has 68 words; required 105-155"
+        "narration has 81 words; required 95-160"
       ]
     },
     "doggerland-short": {
@@ -40,9 +40,42 @@
         "ok": true,
         "url": "https://www.youtube.com/watch?v=8b7HzWSom-I"
       }
+    },
+    "20261122-chicxulub-crater": {
+      "id": "20261122-chicxulub-crater",
+      "created": "2026-11-22 21:09",
+      "title": "Chicxulub crater",
+      "format": "short",
+      "status": "qa_failed",
+      "pillar": "science",
+      "updated": "2026-11-22 21:44",
+      "file": "/home/runner/work/ordelva-automation/ordelva-automation/output/20261122-chicxulub-crater.mp4",
+      "seconds": 62.83,
+      "qa_passed": false,
+      "lufs": -14.0
+    },
+    "20261122-machu-picchu": {
+      "id": "20261122-machu-picchu",
+      "created": "2026-11-22 21:44",
+      "title": "Machu Picchu",
+      "format": "short",
+      "status": "researching",
+      "pillar": "history",
+      "updated": "2026-11-22 21:44"
     }
   },
-  "errors": [],
+  "errors": [
+    {
+      "video": "Chicxulub crater",
+      "msg": "Traceback (most recent call last):\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/pipeline.py\", line 251, in daily\n    pid, decision = produce(topic, fmt)\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/pipeline.py\", line 173, in produce\n    rep = decide(pid, art[\"text\"], fact_rep)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/autoqa.py\", line 107, in decide\n    dup = duplicate_check(pid, narration, spec[\"youtube\"][\"title\"])\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/autoqa.py\", line 37, in duplicate_check\n    worst = max(worst, (j, f.stem))\n            ^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>' not supported between instances of 'str' and 'NoneType'\n",
+      "at": "2026-11-22 21:44"
+    },
+    {
+      "video": "Machu Picchu",
+      "msg": "Traceback (most recent call last):\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/pipeline.py\", line 251, in daily\n    pid, decision = produce(topic, fmt)\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/pipeline.py\", line 150, in produce\n    spec = build_spec(pid, topic, art, media, script, fmt)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ordelva-automation/ordelva-automation/ordelva/pipeline.py\", line 43, in build_spec\n    sc = dict(b.get(\"scene\") or {})\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: dictionary update sequence element #0 has length 1; 2 is required\n",
+      "at": "2026-11-22 21:51"
+    }
+  ],
   "channel": {
     "id": "UCAK-bKBqIq0Yy9L4ctKBkSw",
     "title": "ORDELVA",

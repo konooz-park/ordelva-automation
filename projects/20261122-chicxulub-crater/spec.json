@@ -1,0 +1,211 @@
+{
+ "id": "20261122-chicxulub-crater",
+ "format": "short",
+ "title": "Chicxulub crater",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 644
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo were mapping the Gulf of Mexico.",
+   "say": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo were mapping the Gulf of Mexico.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/cdcb6101ff11.jpg",
+    "credit": "Adamcastforth / CC BY-SA 3.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "They noticed a circular anomaly, a possible impact crater buried under the Yucatán Peninsula.",
+   "say": "They noticed a circular anomaly, a possible impact crater buried under the Yucatán Peninsula.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/379c5b2b6a92.jpg",
+    "credit": "LawrieM / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 1991, Penfield and Alan Hildebrand confirmed it was the Chicxulub crater, linked to the K–Pg extinction.",
+   "say": "In 1991, Penfield and Alan Hildebrand confirmed it was the Chicxulub crater, linked to the K–Pg extinction.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/de0272343005.jpg",
+    "credit": "Donald E. Davis / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Estimated 66 million years old, it’s one of Earth’s largest impact craters, alongside the much older Sudbury and Vredefort impact structures.",
+   "say": "Estimated 66 million years old, it’s one of Earth’s largest impact craters, alongside the much older Sudbury and Vredefort impact structures.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/92792f4e0ef0.jpg",
+    "credit": "Mikenorton / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The impact site was a marine carbonate platform, 650 meters deep at its center, with water depths varying from 100 meters on the western edge to over 1,200 meters on the northeastern edge.",
+   "say": "The impact site was a marine carbonate platform, 650 meters deep at its center, with water depths varying from 100 meters on the western edge to over 1,200 meters on the northeastern edge.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/ddc9b6cfbdbd.jpg",
+    "credit": "Mikenorton / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Today, the crater is 300 kilometers wide, with a buried peak ring, making it one of the largest impact structures on Earth.",
+   "say": "Today, the crater is 300 kilometers wide, with a buried peak ring, making it one of the largest impact structures on Earth.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-chicxulub-crater/media/dbfe518ef8aa.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The Chicxulub crater is an impact crater buried underneath the Yucatán Peninsula in Mexico.",
+   "quote": "The Chicxulub crater is an impact crater buried underneath the Yucatán Peninsula in Mexico.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  },
+  {
+   "claim": "The crater is estimated to be 200 kilometers in diameter and is buried to a depth of about one kilometer beneath younger sedimentary rocks.",
+   "quote": "It was formed slightly over 66 million years ago when an asteroid, about ten kilometers in diameter, struck Earth. The crater is estimated to be two hundred kilometers (120 mi) in diameter and is buried to a depth of about one kilometer (0.6 mi) beneath younger sedimentary rocks.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  },
+  {
+   "claim": "The impact site was a marine carbonate platform, 650 meters deep at its center.",
+   "quote": "The water depth at the impact site varied from 100 meters (330 ft) on the western edge of the crater to over 1,200 meters (3,900 ft) on the northeastern edge, with an estimated depth at the center of the impact of approximately 650 meters (2,130 ft).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  },
+  {
+   "claim": "The crater is one of the largest impact structures on Earth, alongside the much older Sudbury and Vredefort impact structures.",
+   "quote": "It is one of the largest impact structures on Earth, alongside the much older Sudbury and Vredefort impact structures, and the only one whose peak ring is intact and directly accessible for scientific research.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Escultura en el parque central de Chicxulub Puerto, Yucatán, México, en el sitio donde se supone impactó el meteorito qu",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg",
+   "author": "Adamcastforth",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "The Center of the Chicxulub Impact Crater ( approx 21°20'N 89°30'W) it is off the Yucatan coast - near Chicxulub Puerto",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg",
+   "author": "LawrieM",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "http://www2.jpl.nasa.gov/files/images/captions/p45062.txt:\nChicxulub impact site\nDecember 28, 1994\n\nThis painting by Don",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg",
+   "author": "Donald E. Davis",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Schematic cross-section over the Chicxulub impact structure.",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png",
+   "author": "Mikenorton",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Map showing the location of offshore seismic profiles (acquired in 1996 and 2005) and boreholes drilled around the Chicx",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_seismic_%26_borehole_map.png",
+   "author": "Mikenorton",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Relief location map of North America.\nProjection: Lambert azimuthal equal-area projection.\nArea of interest:\nN: 90.0° N\n",
+   "source": "https://commons.wikimedia.org/wiki/File:North_America_laea_relief_location_map.jpg",
+   "author": "Uwe Dedering",
+   "licence": "CC BY-SA 3.0"
+  }
+ ],
+ "youtube": {
+  "title": "CHICXULUB CRATER #shorts",
+  "description": "The Chicxulub crater is a 66 million-year-old impact site in Mexico, one of Earth's largest. It was formed by a 10km asteroid, triggering the K–Pg extinction. Explore more with ORDELVA.\n\nSources:\n- https://en.wikipedia.org/wiki/Chicxulub_crater\n\nImage credits (Wikimedia Commons):\n- Adamcastforth – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg\n- LawrieM – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg\n- Donald E. Davis – Public domain – https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_seismic_%26_borehole_map.png\n- Uwe Dedering – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:North_America_laea_relief_location_map.jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Chicxulub",
+   "Crater",
+   "Extinction",
+   "Dinosaurs",
+   "Impact",
+   "Geology",
+   "Extinction Event",
+   "Science"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "CHICXULUB CRATER",
+   "IMPACT MYSTERY"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Chicxulub_crater"
+}

@@ -28,5 +28,10 @@
   "title": "Eye of the Sahara",
   "id": "channel-existing",
   "status": "near-duplicate-of-sahara"
+ },
+ {
+  "title": "Voynich manuscript",
+  "id": "20261122-voynich-manuscript",
+  "status": "held-facts"
  }
 ]

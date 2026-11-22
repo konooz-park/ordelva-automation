@@ -87,5 +87,30 @@
    "ok": true,
    "url": "https://www.youtube.com/watch?v=8b7HzWSom-I"
   }
+ },
+ {
+  "date": "2026-11-22",
+  "topic": "Voynich manuscript",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261122-voynich-manuscript",
+  "decision": "hold",
+  "result": "hold"
+ },
+ {
+  "date": "2026-11-22",
+  "topic": "Chicxulub crater",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "'>' not supported between instances of 'str' and 'NoneType'"
+ },
+ {
+  "date": "2026-11-22",
+  "topic": "Machu Picchu",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "dictionary update sequence element #0 has length 1; 2 is required"
  }
 ]

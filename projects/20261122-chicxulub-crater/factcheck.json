@@ -1,0 +1,50 @@
+{
+ "ok": true,
+ "problems": [],
+ "details": [
+  {
+   "claim": "The Chicxulub crater is an impact crater buried underneath the Yucatán Peninsula in Mexico.",
+   "quote_found": true
+  },
+  {
+   "claim": "The crater is estimated to be 200 kilometers in diameter and is buried to a depth of about one kilometer beneath younger sedimentary rocks.",
+   "quote_found": true
+  },
+  {
+   "claim": "The impact site was a marine carbonate platform, 650 meters deep at its center.",
+   "quote_found": true
+  },
+  {
+   "claim": "The crater is one of the largest impact structures on Earth, alongside the much older Sudbury and Vredefort impact structures.",
+   "quote_found": true
+  },
+  {
+   "number": "1970",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "300",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1991",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo were mapping the Gulf of Mexico. They noticed a circular anomaly, a possible impact crater buried under the Yucatán Peninsula.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "In 1991, Penfield and Alan Hildebrand confirmed it was the Chicxulub crater, linked to the K–Pg extinction.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "The impact site was a marine carbonate platform, 650 meters deep at its center, with water depths varying from 100 meters on the western edge to over 1,200 meters on the northeastern edge.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "Today, the crater is 300 kilometers wide, with a buried peak ring, making it one of the largest impact structures on Earth.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}
