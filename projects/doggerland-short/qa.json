@@ -1,0 +1,69 @@
+{
+  "video": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4",
+  "duration": 59.467,
+  "lufs": -14.0,
+  "true_peak": -1.5,
+  "passed": true,
+  "checks": [
+    {
+      "check": "resolution",
+      "ok": true,
+      "detail": "1080x1920"
+    },
+    {
+      "check": "codec",
+      "ok": true,
+      "detail": "h264 yuv420p"
+    },
+    {
+      "check": "fps",
+      "ok": true,
+      "detail": "30.00"
+    },
+    {
+      "check": "duration",
+      "ok": true,
+      "detail": "59.47s (allowed 30-60)"
+    },
+    {
+      "check": "audio_stream",
+      "ok": true,
+      "detail": "aac"
+    },
+    {
+      "check": "loudness",
+      "ok": true,
+      "detail": "-14.0 LUFS (target -14)"
+    },
+    {
+      "check": "true_peak",
+      "ok": true,
+      "detail": "-1.5 dBTP"
+    },
+    {
+      "check": "no_dead_air",
+      "ok": true,
+      "detail": "0 silent gaps >1.5s inside video"
+    },
+    {
+      "check": "no_black_frames",
+      "ok": true,
+      "detail": "0 black segments inside video"
+    },
+    {
+      "check": "captions",
+      "ok": true,
+      "detail": "135 caption events burned in; SRT for YouTube CC also written"
+    },
+    {
+      "check": "facts_have_sources",
+      "ok": true,
+      "detail": "9 claims, all with sources"
+    },
+    {
+      "check": "assets_have_licences",
+      "ok": true,
+      "detail": "5 assets with licence"
+    }
+  ]
+}
