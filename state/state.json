@@ -1,0 +1,23 @@
+{
+  "videos": {
+    "20261122-voynich-manuscript": {
+      "id": "20261122-voynich-manuscript",
+      "created": "2026-11-22 12:57",
+      "title": "Voynich manuscript",
+      "format": "short",
+      "status": "held",
+      "pillar": "history",
+      "updated": "2026-11-22 13:17",
+      "qa_failures": [
+        "claim NOT_SUPPORTED: The manuscript contains around 240 pages. (The quote mentions the number of pages but also explicitly states that some page)",
+        "statement without source: Discovered in 1912 by Wilfrid Voynich, a Polish book dealer.",
+        "statement without source: near modern-day Southern Germany, Switzerland, and Northern Italy.",
+        "statement without source: its text, written in an undeciphered script called Voynichese, is undeciphered to this day.",
+        "statement without source: Experts believe it could be a hoax, a cipher, or a work of fiction.",
+        "statement without source: Yale University holds the manuscript in its Beinecke Rare Book and Manuscript Library."
+      ]
+    }
+  },
+  "errors": [],
+  "channel": {}
+}

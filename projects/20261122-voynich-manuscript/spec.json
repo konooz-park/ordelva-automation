@@ -1,0 +1,237 @@
+{
+ "id": "20261122-voynich-manuscript",
+ "format": "short",
+ "title": "Voynich manuscript",
+ "pillar": "history",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 819
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "The Voynich manuscript, a mysterious book from the 15th century.",
+   "say": "the voynich manuscript 15th century",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "Mysterious Manuscript",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Discovered in 1912 by Wilfrid Voynich, a Polish book dealer.",
+   "say": "discovered 1912 wilfrid voynich",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/63ddd9a4e33f.jpg",
+    "credit": "Unknown authorUnknown author / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Carbon dating places it between 1404 and 1438, near modern-day Southern Germany, Switzerland, and Northern Italy.",
+   "say": "carbon dating 1404 1438 southern germany switzerland northern italy",
+   "scene": {
+    "type": "title",
+    "title": "VOYNICH MANUSCRIPT",
+    "bg": {
+     "type": "image",
+     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/63ddd9a4e33f.jpg",
+     "note": false
+    }
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Its text, written in an undeciphered script called Voynichese, is undeciphered to this day.",
+   "say": "text undeciphered voynichese",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/648536b03a9d.jpg",
+    "credit": "Unknown authorUnknown author / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The manuscript contains around 240 pages, mostly illustrated with strange diagrams and figures.",
+   "say": "240 pages illustrated diagrams figures",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/bb9617c4492e.jpg",
+    "credit": "Unknown authorUnknown author / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Experts believe it could be a hoax, a cipher, or a work of fiction.",
+   "say": "experts believe hoax cipher fiction",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/0e8f62c00395.jpg",
+    "credit": "Johann Balzer / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Codebreakers from World War I and II, including Currier, Friedman, and Tiltman, failed to decipher it.",
+   "say": "codebreakers world war i ii currier friedman tiltman failed",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/b7813afd54fe.jpg",
+    "credit": "CC BY 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Yale University holds the manuscript in its Beinecke Rare Book and Manuscript Library.",
+   "say": "yale university beinecke library",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/fde3f329d9b2.jpg",
+    "credit": "Hans von Aachen / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more on the Voynich manuscript.",
+   "say": "follow orderva for more",
+   "scene": {
+    "type": "title",
+    "title": "VOYNICH #SHORTS",
+    "subtitle": "MYSTERIOUS",
+    "bg": {
+     "type": "image",
+     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261122-voynich-manuscript/media/fde3f329d9b2.jpg",
+     "note": false
+    }
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Carbon dating places it between 1404 and 1438.",
+   "quote": "The results were consistent for all samples tested and indicated a date for the parchment between 1404 and 1438.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Voynich_manuscript"
+   ]
+  },
+  {
+   "claim": "The manuscript contains around 240 pages.",
+   "quote": "The manuscript consists of around 240 pages, but there is evidence that some of the pages are missing.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Voynich_manuscript"
+   ]
+  },
+  {
+   "claim": "Codebreakers from World War I and II, including Currier, Friedman, and Tiltman, failed to decipher it.",
+   "quote": "Codebreakers Prescott Currier, William Friedman, Elizebeth Friedman, and John Tiltman were unsuccessful. The manuscript has never been demonstrably deciphered.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Voynich_manuscript"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "AACHEN, Hans von - Portrait of Emperor Rudolf II - WGA.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:AACHEN,_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg",
+   "author": "Hans von Aachen",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Jan Marek Marci (1595—1667)",
+   "source": "https://commons.wikimedia.org/wiki/File:Jan_Marcus_Marci_00.jpg",
+   "author": "Johann Balzer",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Mr. Voynich among his books in Soho Square",
+   "source": "https://commons.wikimedia.org/wiki/File:Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg",
+   "author": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Roger Bacon in his observatory at Merton College, Oxford. Oil painting by Ernest Board.\n\nIconographic Collections\nKeywor",
+   "source": "https://commons.wikimedia.org/wiki/File:Roger_Bacon_in_his_observatory_at_Merton_College,_Oxford._Oi_Wellcome_M0001840.jpg",
+   "author": "unknown",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+   "source": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(119).jpg",
+   "author": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  {
+   "what": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+   "source": "https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(206).jpg",
+   "author": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  }
+ ],
+ "youtube": {
+  "title": "The Voynich Manuscript #shorts",
+  "description": "The Voynich manuscript is an illustrated codex hand-written in an undeciphered script. It's named after Wilfrid Voynich, who purchased it in 1912. Despite extensive study, it remains undeciphered. Sources: https://en.wikipedia.org/wiki/Voynich_manuscript\n\nImage credits (Wikimedia Commons):\n- Hans von Aachen – Public domain – https://commons.wikimedia.org/wiki/File:AACHEN,_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg\n- Johann Balzer – Public domain – https://commons.wikimedia.org/wiki/File:Jan_Marcus_Marci_00.jpg\n- Unknown authorUnknown author – Public domain – https://commons.wikimedia.org/wiki/File:Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg\n- unknown – CC BY 4.0 – https://commons.wikimedia.org/wiki/File:Roger_Bacon_in_his_observatory_at_Merton_College,_Oxford._Oi_Wellcome_M0001840.jpg\n- Unknown authorUnknown author – Public domain – https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(119).jpg\n- Unknown authorUnknown author – Public domain – https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_(206).jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "voynich manuscript",
+   "mysterious book",
+   "undeciphered script",
+   "15th century",
+   "codebreaking",
+   "history",
+   "science",
+   "mystery"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "VOYNICH MANUSCRIPT",
+   "MYSTERIOUS BOOK"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+}
