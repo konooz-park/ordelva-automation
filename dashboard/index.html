@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ORDELVA Control Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0d1117; --panel:#151b23; --line:#263040; --text:#e6e1d6; --muted:#8b949e; --gold:#f5c845; --ok:#3fb950; --bad:#f85149; --warn:#d29922; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  header { display:flex; align-items:center; gap:24px; padding:16px 28px; border-bottom:1px solid var(--line); }
+  header h1 { font:600 20px Georgia,serif; letter-spacing:.25em; margin:0; color:var(--gold); }
+  .stats { display:flex; gap:28px; margin-left:auto; }
+  .stat b { display:block; font-size:20px; } .stat span { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+  main { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:16px; padding:20px 28px; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; min-height:120px; }
+  section h2 { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 10px; }
+  .wide { grid-column: span 2; } .full { grid-column: 1 / -1; }
+  .item { border-top:1px solid var(--line); padding:8px 0; } .item:first-of-type { border-top:0; }
+  .pill { display:inline-block; padding:1px 8px; border-radius:99px; font-size:11px; border:1px solid var(--line); color:var(--muted); }
+  .pill.ok { color:var(--ok); border-color:var(--ok); } .pill.bad { color:var(--bad); border-color:var(--bad); } .pill.warn { color:var(--warn); border-color:var(--warn); }
+  .muted { color:var(--muted); } a { color:var(--gold); }
+  .ready { display:grid; grid-template-columns: 220px 1fr; gap:16px; padding:12px 0; border-top:1px solid var(--line); }
+  .ready:first-of-type { border-top:0; }
+  video { width:220px; border-radius:6px; background:#000; }
+  .checks { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:2px 16px; font-size:12px; margin:8px 0; }
+  .sheet { max-width:100%; border-radius:6px; margin-top:6px; }
+  form label { display:block; font-size:12px; } input[type=text] { background:#0d1117; color:var(--text); border:1px solid var(--line); border-radius:6px; padding:5px 8px; }
+  button { background:var(--gold); color:#111; border:0; border-radius:6px; padding:6px 12px; font-weight:600; cursor:pointer; }
+  button[disabled] { opacity:.4; cursor:not-allowed; }
+  pre { margin:0; max-height:300px; overflow:auto; font:12px/1.4 ui-monospace,Consolas,monospace; color:#c9d1d9; white-space:pre-wrap; }
+  .pipeline { display:flex; gap:8px; flex-wrap:wrap; } .pipeline div { flex:1; min-width:80px; background:#0d1117; border:1px solid var(--line); border-radius:8px; padding:8px; text-align:center; }
+  .pipeline b { display:block; font-size:22px; color:var(--gold); }
+</style>
+</head>
+<body>
+<header>
+  <h1>ORDELVA</h1><span class="muted">Control Room · local</span>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <section class="full"><h2>Production status</h2><div class="pipeline" id="pipeline"></div><p class="muted" id="cfg"></p></section>
+  <section class="wide"><h2>Ready for review</h2><div id="ready"></div></section>
+  <section><h2>Ideas</h2><div id="ideas"></div></section>
+  <section><h2>Publish queue</h2><div id="queue"></div></section>
+  <section><h2>Published / uploaded</h2><div id="published"></div></section>
+  <section><h2>Errors</h2><div id="errors"></div></section>
+  <section class="full"><h2>Operations log</h2><pre id="log"></pre></section>
+</main>
+<script>
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const ITEMS = ["facts_checked","licences_checked","audio_checked","picture_checked","metadata_checked"];
+let openForms = new Set();
+
+async function approve(id) {
+  const f = document.getElementById("f-" + id);
+  const boxes = [...f.querySelectorAll("input[type=checkbox]")];
+  if (!boxes.every(b => b.checked)) { alert("Tick every review item after watching the video."); return; }
+  const reviewer = f.querySelector("input[name=reviewer]").value.trim();
+  const r = await fetch("/api/approve", {method:"POST", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({id, reviewer, notes: f.querySelector("input[name=notes]").value})});
+  const j = await r.json(); if (!r.ok) alert(j.error); else { openForms.delete(id); load(); }
+}
+
+function readyCard(v) {
+  const qa = v.qa || {checks:[]};
+  const checks = qa.checks.map(c => `<div><span class="pill ${c.ok?"ok":"bad"}">${c.ok?"PASS":"FAIL"}</span> ${esc(c.check)} <span class="muted">${esc(c.detail)}</span></div>`).join("");
+  const file = (v.file||"").split(/[\\/]/).pop();
+  const approved = v.status === "approved";
+  return `<div class="ready">
+    <div><video controls preload="metadata" src="/media/video/${esc(file)}"></video></div>
+    <div>
+      <b>${esc(v.title)}</b> <span class="pill">${esc(v.format)}</span> <span class="pill ${approved?"ok":"warn"}">${esc(v.status)}</span>
+      <div class="muted">${esc(v.seconds)} s · ${esc(v.lufs)} LUFS · rendered ${esc(v.updated)}</div>
+      <div class="checks">${checks}</div>
+      ${v.has_sheet ? `<img class="sheet" src="/media/sheet/${esc(v.id)}" alt="contact sheet">` : ""}
+      ${approved ? `<p class="muted">Approved by ${esc(v.reviewer)}. Upload: <code>ordelva.bat upload ${esc(v.id)}</code> (private by default)</p>` :
+      `<form id="f-${esc(v.id)}" onsubmit="event.preventDefault();approve('${esc(v.id)}')">
+        <p class="muted">Human review (required before upload):</p>
+        ${ITEMS.map(k => `<label><input type="checkbox"> ${k.replace("_"," ")}</label>`).join("")}
+        <label>Reviewer <input type="text" name="reviewer" placeholder="your name"></label>
+        <label>Notes <input type="text" name="notes" style="width:60%"></label>
+        <button ${qa.passed ? "" : "disabled"}>Approve</button>
+      </form>`}
+    </div></div>`;
+}
+
+async function load() {
+  const s = await (await fetch("/api/state")).json();
+  const ch = s.channel || {};
+  document.getElementById("stats").innerHTML = ch.id ?
+    `<div class="stat"><b>${Number(ch.subscriberCount||0).toLocaleString()}</b><span>subscribers</span></div>
+     <div class="stat"><b>${Number(ch.viewCount||0).toLocaleString()}</b><span>views</span></div>
+     <div class="stat"><b>${Number(ch.videoCount||0).toLocaleString()}</b><span>videos</span></div>` :
+    `<span class="muted">YouTube not connected (run <code>ordelva.bat auth</code>)</span>`;
+  const vids = Object.values(s.videos || {});
+  const count = st => vids.filter(v => st.includes(v.status)).length;
+  const stages = [["Ideas",(s.ideas||[]).filter(i=>i.status==="idea").length],["Scripted",count(["scripted"])],["Rendering",count(["rendering"])],
+    ["In review",count(["review","rendered"])],["QA failed",count(["qa_failed","error"])],["Approved",count(["approved","queued"])],["Uploaded",count(["uploaded","published"])]];
+  document.getElementById("pipeline").innerHTML = stages.map(([n,c]) => `<div><b>${c}</b>${n}</div>`).join("");
+  const c = s.config || {};
+  document.getElementById("cfg").innerHTML = `Automatic production: <b>${c.production_enabled ? "ON" : "OFF"}</b> · target ${c.daily_shorts} shorts/day, ${c.weekly_longs} long/week · default upload privacy: <b>${esc(c.default_privacy)}</b> · public publishing allowed: <b>${c.allow_public_publish ? "yes" : "no"}</b> · LLM: ${esc(c.ollama_model)} · voice: ${esc(c.voice)}`;
+  const ready = vids.filter(v => ["review","rendered","approved","qa_failed"].includes(v.status));
+  const r = document.getElementById("ready");
+  if (!document.activeElement || !r.contains(document.activeElement))
+    r.innerHTML = ready.length ? ready.map(readyCard).join("") : `<p class="muted">Nothing waiting.</p>`;
+  document.getElementById("ideas").innerHTML = (s.ideas||[]).slice(-15).reverse().map(i => `<div class="item">${esc(i.title)} <span class="pill">${esc(i.format)}</span> <span class="pill">${esc(i.status)}</span></div>`).join("") || `<p class="muted">Run <code>ordelva.bat ideas</code></p>`;
+  document.getElementById("queue").innerHTML = vids.filter(v => ["approved","queued"].includes(v.status)).map(v => `<div class="item">${esc(v.title)}</div>`).join("") || `<p class="muted">Empty</p>`;
+  document.getElementById("published").innerHTML = vids.filter(v => v.youtube_id).map(v => `<div class="item"><a href="${esc(v.url)}" target="_blank">${esc(v.title)}</a> <span class="pill">${esc(v.privacy)}</span> <span class="muted">${v.views ?? "–"} views</span></div>`).join("") || `<p class="muted">None yet</p>`;
+  document.getElementById("errors").innerHTML = (s.errors||[]).slice(-8).reverse().map(e => `<div class="item"><b>${esc(e.video)}</b> <span class="muted">${esc(e.at)}</span><br><span class="muted">${esc(e.msg.split("\n")[0])}</span></div>`).join("") || `<p class="muted">No errors</p>`;
+  const log = await (await fetch("/api/log")).json();
+  const el = document.getElementById("log"); const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 10;
+  el.textContent = log.join("\n"); if (atBottom) el.scrollTop = el.scrollHeight;
+}
+load(); setInterval(load, 5000);
+</script>
+</body>
+</html>

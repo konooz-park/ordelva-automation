@@ -1,0 +1,11 @@
+{
+  "production_enabled": true,
+  "autonomous": true,
+  "default_privacy": "public",
+  "allow_public_publish": true,
+  "llm_backend": "auto",
+  "whisper_model": "base.en",
+  "whisper_device": "cpu",
+  "longs_enabled": false,
+  "youtube_channel_id": "UCAK-bKBqIq0Yy9L4ctKBkSw"
+}

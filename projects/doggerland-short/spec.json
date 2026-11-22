@@ -1,0 +1,474 @@
+{
+ "id": "doggerland-short",
+ "format": "short",
+ "title": "The Lost Land That Once Connected Britain to Europe",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.07,
+ "music": {
+  "mood": "mystery",
+  "seed": 11
+ },
+ "tail": 1.4,
+ "beats": [
+  {
+   "text": "20,000 years ago, you could walk from Britain to Europe.",
+   "say": "Twenty thousand years ago, you could walk from Britain to Europe.",
+   "scene": {
+    "type": "map",
+    "sea_from": 0,
+    "sea_to": -120,
+    "sea_window": [
+     0.05,
+     0.95
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "focus": [
+     [
+      55.0,
+      2.5
+     ],
+     [
+      54.5,
+      2.5
+     ]
+    ],
+    "title": "THE LOST LAND",
+    "subtitle": "UNDER THE NORTH SEA",
+    "labels": [
+     {
+      "text": "BRITAIN",
+      "lat": 53.2,
+      "lon": -1.6,
+      "at": 0.15
+     },
+     {
+      "text": "EUROPE",
+      "lat": 51.0,
+      "lon": 8.0,
+      "at": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "text": "No boat. No bridge. Just land.",
+   "pause": 0.45,
+   "sfx": [
+    "whoosh"
+   ],
+   "scene": {
+    "type": "map",
+    "sea_from": -120,
+    "glow_doggerland": true,
+    "zoom": [
+     1.15,
+     1.35
+    ],
+    "focus": [
+     [
+      54.5,
+      2.5
+     ],
+     [
+      54.2,
+      2.0
+     ]
+    ]
+   }
+  },
+  {
+   "text": "Archaeologists call it Doggerland.",
+   "sfx": [
+    "whoosh"
+   ],
+   "pause": 0.5,
+   "scene": {
+    "type": "title",
+    "title": "DOGGERLAND",
+    "subtitle": "THE LOST LAND OF THE NORTH SEA",
+    "size": 112,
+    "bg": {
+     "type": "map",
+     "sea_from": -120,
+     "glow_doggerland": true,
+     "zoom": [
+      1.3,
+      1.4
+     ],
+     "focus": [
+      54.5,
+      2.5
+     ],
+     "note": false
+    }
+   }
+  },
+  {
+   "text": "In the Ice Age, the sea was about 120 metres lower.",
+   "say": "In the Ice Age, the sea was about a hundred and twenty metres lower.",
+   "sfx": [
+    "whoosh"
+   ],
+   "scene": {
+    "type": "map",
+    "sea_from": -120,
+    "gauge": true,
+    "glow_doggerland": true,
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "focus": [
+     [
+      58.0,
+      3.0
+     ],
+     [
+      55.0,
+      3.0
+     ]
+    ],
+    "labels": [
+     {
+      "text": "DOGGERLAND",
+      "lat": 55.2,
+      "lon": 3.5,
+      "at": 0.25,
+      "dot": false,
+      "size": 46,
+      "color": [
+       245,
+       200,
+       69
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "text": "Where the North Sea is today, there were plains, rivers and marshes.",
+   "sfx": [
+    "whoosh"
+   ],
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "DOGGERLAND",
+    "sublabel": "ABOUT 10,000 YEARS AGO"
+   }
+  },
+  {
+   "text": "People lived here. Stone Age hunter-gatherers fished and hunted across it.",
+   "sfx": [
+    "whoosh"
+   ],
+   "scene": {
+    "type": "camp",
+    "label": "MESOLITHIC HUNTER-GATHERERS",
+    "sublabel": "MIDDLE STONE AGE"
+   }
+  },
+  {
+   "text": "Then the ice melted, and the sea crept back in.",
+   "sfx": [
+    "whoosh"
+   ],
+   "music": "tension_on",
+   "scene": {
+    "type": "map",
+    "sea_from": -120,
+    "sea_to": -25,
+    "gauge": true,
+    "zoom": [
+     1.1,
+     1.2
+    ],
+    "focus": [
+     55.0,
+     2.5
+    ],
+    "labels": [
+     {
+      "text": "10,000 - 7,000 YEARS AGO",
+      "lat": 58.2,
+      "lon": 3.6,
+      "at": 0.05,
+      "dot": false,
+      "size": 38,
+      "color": [
+       245,
+       200,
+       69
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "text": "By around 6500 BC, Britain was an island.",
+   "say": "By around sixty-five hundred B.C., Britain was an island.",
+   "scene": {
+    "type": "map",
+    "sea_from": -25,
+    "sea_to": -18,
+    "zoom": [
+     1.2,
+     1.55
+    ],
+    "focus": [
+     [
+      54.0,
+      1.5
+     ],
+     [
+      52.0,
+      1.0
+     ]
+    ],
+    "labels": [
+     {
+      "text": "BRITAIN",
+      "lat": 52.6,
+      "lon": -1.4,
+      "at": 0.3
+     },
+     {
+      "text": "c. 6500 BC",
+      "lat": 53.9,
+      "lon": 3.2,
+      "at": 0.45,
+      "dot": false,
+      "color": [
+       245,
+       200,
+       69
+      ],
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "text": "About 8,200 years ago, an undersea landslide off Norway sent a tsunami into the North Sea.",
+   "say": "About eight thousand two hundred years ago, an undersea landslide off Norway sent a tsunami into the North Sea.",
+   "sfx": [
+    "impact"
+   ],
+   "impact_at": 1.6,
+   "scene": {
+    "type": "map",
+    "sea_from": -18,
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "focus": [
+     [
+      59.0,
+      3.0
+     ],
+     [
+      57.0,
+      3.0
+     ]
+    ],
+    "tsunami": {
+     "lat": 63.4,
+     "lon": 5.2,
+     "start": 0.38
+    },
+    "labels": [
+     {
+      "text": "STOREGGA SLIDE",
+      "lat": 62.5,
+      "lon": 1.8,
+      "at": 0.4,
+      "dot": false,
+      "color": [
+       255,
+       120,
+       90
+      ]
+     },
+     {
+      "text": "NORWAY",
+      "lat": 61.2,
+      "lon": 9.0,
+      "at": 0.1,
+      "dot": false,
+      "size": 30
+     }
+    ]
+   }
+  },
+  {
+   "text": "In time, even the last islands slipped beneath the waves.",
+   "music": "tension_off",
+   "scene": {
+    "type": "map",
+    "sea_from": -18,
+    "sea_to": 0,
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "focus": [
+     55.5,
+     2.5
+    ]
+   }
+  },
+  {
+   "text": "In 1931, a trawler dragged up a lump of peat from the seabed. Inside was a barbed antler point, left by people who lived there.",
+   "sfx": [
+    "whoosh"
+   ],
+   "scene": {
+    "type": "seabed",
+    "caption_lines": [
+     "BARBED ANTLER POINT",
+     "TRAWLER COLINDA, 1931",
+     "ABOUT 22 CM LONG"
+    ]
+   }
+  },
+  {
+   "text": "A lost world, still beneath the North Sea. Follow ORDELVA for more.",
+   "sfx": [
+    "whoosh"
+   ],
+   "pause": 0.2,
+   "scene": {
+    "type": "title",
+    "title": "ORDELVA",
+    "subtitle": "LOST WORLDS. REAL HISTORY.",
+    "size": 120,
+    "bg": {
+     "type": "map",
+     "sea_from": 0,
+     "glow_doggerland": false,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "focus": [
+      55.5,
+      2.5
+     ],
+     "note": false
+    }
+   }
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Doggerland connected Britain to continental Europe when sea levels were low (during and after the last Ice Age).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland",
+    "Gaffney, Fitch & Smith (2009) Europe's Lost World: The Rediscovery of Doggerland"
+   ]
+  },
+  {
+   "claim": "At the Last Glacial Maximum (~20,000 years ago) sea level was about 120 m lower than today.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland",
+    "https://en.wikipedia.org/wiki/Last_Glacial_Maximum"
+   ]
+  },
+  {
+   "claim": "The name Doggerland was coined by archaeologist Bryony Coles in the 1990s (after the Dogger Bank).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "The Early Holocene landscape included plains, rivers and marshes (seismic mapping, Birmingham team 2003-2007).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "Mesolithic (Middle Stone Age) hunter-gatherers lived there; it was a rich hunting, fowling and fishing ground.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "Between about 10,000 and 7,000 years ago rising seas flooded Doggerland; Britain was cut off from the continent by around 6500 BC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "The Storegga Slide off Norway, c. 8,200 years ago (c. 6200 BC), caused a tsunami that reached North Sea coasts.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Storegga_Slide",
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "Remaining low islands (e.g. Dogger Bank, an island until at least c. 5000 BC) were eventually submerged.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  },
+  {
+   "claim": "In 1931 the trawler Colinda hauled up a lump of peat near the Leman and Ower banks containing a barbed antler point (~220 mm).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Doggerland"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0 (commercial use allowed)"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "Generated by ordelva/audio.py (original composition)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO 20' relief + GLOBE land mask (global-land-mask)",
+   "licence": "Public domain (US Government data)"
+  },
+  {
+   "what": "Illustrations (landscape, camp, seabed, antler point)",
+   "source": "Generated by ordelva/visuals/procedural.py",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton (Google Fonts)",
+   "licence": "SIL Open Font License 1.1"
+  }
+ ],
+ "youtube": {
+  "title": "The Lost Land That Once Connected Britain to Europe #shorts",
+  "description": "20,000 years ago you could walk from Britain to mainland Europe. This is Doggerland: the drowned land beneath the North Sea.\n\nMaps are simplified reconstructions from modern seabed depth (NOAA ETOPO). Landscape and artefact scenes are illustrations.\n\nSources:\n- Doggerland overview: https://en.wikipedia.org/wiki/Doggerland\n- Storegga Slide: https://en.wikipedia.org/wiki/Storegga_Slide\n- Gaffney, Fitch & Smith (2009), Europe's Lost World: The Rediscovery of Doggerland\n\nNarration: Kokoro TTS (AI voice). Music: original.\n\n#Doggerland #LostWorlds #AncientHistory #NorthSea #Archaeology",
+  "tags": [
+   "Doggerland",
+   "lost land",
+   "North Sea",
+   "ancient history",
+   "Stone Age",
+   "Mesolithic",
+   "Storegga Slide",
+   "archaeology",
+   "Britain",
+   "Ice Age"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "verified": "manual",
+ "pillar": "history"
+}

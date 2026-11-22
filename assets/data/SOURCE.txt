@@ -1,0 +1,3 @@
+etopo20*.gz : ETOPO5-derived 20 arc-minute global relief (NOAA NGDC, US Government work, public domain),
+              copy distributed with matplotlib/basemap examples (doc/examples).
+Present-day coastline: global-land-mask package (MIT), GLOBE 1-km land mask (NOAA, public domain).

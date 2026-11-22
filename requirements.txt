@@ -1,0 +1,12 @@
+# ORDELVA-Automation – Python 3.11/3.12 (64-bit)
+numpy>=2.0,<3
+scipy>=1.13
+pillow>=10.4
+soundfile>=0.12
+kokoro-onnx==0.6.1          # MIT; Kokoro-82M weights Apache-2.0
+onnxruntime>=1.20
+global-land-mask==1.0.0     # MIT; GLOBE land mask (public domain)
+faster-whisper==1.2.1       # MIT
+requests>=2.32
+google-api-python-client>=2.150   # Apache-2.0
+google-auth-oauthlib>=1.2         # Apache-2.0

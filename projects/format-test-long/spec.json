@@ -1,0 +1,12 @@
+{
+ "id": "format-test-long", "format": "long", "title": "Format test 16:9", "speed": 1.0, "tail": 0.8,
+ "music": {"mood": "wonder", "seed": 3}, "whisper": false,
+ "beats": [
+  {"text": "This is a sixteen by nine format test for long ORDELVA documentaries.",
+   "scene": {"type": "map", "region": {"lat": 56.0, "lon": 3.0, "lon_span": 34.0}, "sea_from": 0, "sea_to": -120, "gauge": true, "title": "DOGGERLAND", "subtitle": "FORMAT TEST", "zoom": [1.0, 1.1], "focus": [55.0, 3.0]}},
+  {"text": "Landscapes, titles and maps all scale to nineteen twenty by ten eighty.", "sfx": ["whoosh"],
+   "scene": {"type": "landscape", "mood": "dawn", "label": "WIDESCREEN", "sublabel": "1920 X 1080"}},
+  {"text": "End of test.", "sfx": ["whoosh"], "scene": {"type": "title", "title": "ORDELVA", "subtitle": "LONG FORMAT"}}
+ ],
+ "facts": [], "assets": []
+}
