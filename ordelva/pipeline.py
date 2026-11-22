@@ -303,3 +303,28 @@ def _cleanup():
             d = p / sub
             if d.exists() and (p / "autoqa.json").exists():
                 shutil.rmtree(d, ignore_errors=True)
+
+
+def dry_run(n=1):
+    """Produce n shorts end-to-end (research -> render -> strict QA) WITHOUT publishing.
+    Topics are released again afterwards so the real schedule can still use them."""
+    from .topics import candidates, HISTORY_FILE, done
+    before = done()
+    results = []
+    for topic in candidates(n + 3):
+        if len(results) >= n:
+            break
+        try:
+            pid, decision = produce(topic, "short")
+        except Exception as e:
+            import traceback
+            state.add_error(topic["title"], traceback.format_exc())
+            results.append({"topic": topic["title"], "error": str(e)[:300]})
+            continue
+        if decision == "skip":
+            continue
+        results.append({"topic": topic["title"], "id": pid, "decision": decision})
+    HISTORY_FILE.write_text(json.dumps(before, indent=1, ensure_ascii=False), encoding="utf-8")
+    _log_run({"date": str(datetime.date.today()), "kind": "dry-run", "results": results})
+    log.info("dry run: %s", results)
+    return results

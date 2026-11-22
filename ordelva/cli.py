@@ -148,6 +148,8 @@ def main(argv=None):
             ok = cmd_check(a)
             print("channel:", channel_identity())
             sys.exit(0 if ok else 1)
+        elif a.mode == "dry-run":
+            print(json.dumps(pipeline.dry_run(1), indent=1))
         elif a.mode == "stats":
             from .youtube import refresh_stats
             print(refresh_stats())
