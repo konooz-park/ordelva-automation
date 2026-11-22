@@ -7,10 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "daily | publish-existing | report | check | stats"
+        description: "daily | dry-run | publish-existing | report | check | stats"
         default: daily
-        type: choice
-        options: [daily, publish-existing, report, check, stats]
+        type: string
       id:
         description: "project id for publish-existing"
         default: doggerland-short
