@@ -114,7 +114,7 @@ def _word_count(beats):
 def produce(topic, fmt="short"):
     """Full autonomous production of one video. Returns (pid, decision)."""
     from .research import article, article_media, commons_search
-    from .llm import write_script
+    from .llm import write_script, expand_script
     from .factcheck import check
     from .render import render
     from .thumbnail import make
@@ -138,7 +138,7 @@ def produce(topic, fmt="short"):
         state.upsert_video(pid, status="skipped", reason="fewer than 3 commercially licensed images")
         return pid, "skip"
     notes = art["text"][:16000 if fmt == "long" else 11000]
-    lo, hi = (105, 155) if fmt == "short" else (850, 1400)
+    lo, hi = (95, 160) if fmt == "short" else (850, 1400)
     script, fact_rep = None, None
     for attempt in range(3):
         style = ""
@@ -149,6 +149,10 @@ def produce(topic, fmt="short"):
                               [{"what": m["what"]} for m in media], art["coords"], fmt, style)
         spec = build_spec(pid, topic, art, media, script, fmt)
         wc = _word_count(spec["beats"])
+        if wc < lo:
+            script = expand_script(script, notes, "120-140" if fmt == "short" else "1000-1200")
+            spec = build_spec(pid, topic, art, media, script, fmt)
+            wc = _word_count(spec["beats"])
         if not (lo <= wc <= hi):
             fact_rep = {"ok": False, "problems": [f"narration has {wc} words; required {lo}-{hi}"]}
             continue

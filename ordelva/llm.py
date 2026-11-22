@@ -91,7 +91,8 @@ Prefer image scenes. Never reuse the same media index twice in a row."""
 
 
 def write_script(topic, notes, media, coords, fmt="short", style_notes=""):
-    words = "115-140 words (45-55 seconds)" if fmt == "short" else "950-1250 words (7-9 minutes)"
+    words = ("AT LEAST 115 and at most 140 words in total (45-55 seconds) - count them" if fmt == "short"
+             else "950-1250 words (7-9 minutes)")
     beats = "9-12 beats" if fmt == "short" else "45-70 beats"
     media_list = "\n".join(f"[{i}] {m['what']}" for i, m in enumerate(media)) or "(none)"
     prompt = f"""You write narration for ORDELVA, an English documentary YouTube channel about real history,
@@ -148,3 +149,18 @@ List every factual statement in the narration that is NOT covered by the verifie
 Return JSON {{"uncovered":["..."]}} (empty list if none).""",
                system="You are a strict fact-checker.", temperature=0.0)
     return out.get("uncovered", [])
+
+
+def expand_script(script, notes, target="120-140"):
+    """Ask the model to lengthen a too-short draft, keeping the same JSON shape and the same rules."""
+    out = chat(f"""This ORDELVA narration draft is too short. Rewrite it to {target} words in total by adding more
+beats with additional facts taken ONLY from the research notes (each new fact needs a verbatim quote in "facts").
+Keep the hook, keep the ending "Follow ORDELVA for more.", keep the exact JSON structure.
+
+DRAFT JSON:
+{json.dumps(script, ensure_ascii=False)}
+
+RESEARCH NOTES:
+{notes}
+""", system="You are a meticulous documentary scriptwriter and fact-checker.", temperature=0.4)
+    return out if out.get("beats") else script
