@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "daily | dry-run | publish-existing | report | check | stats"
+        description: "daily | dry-run | private-test | publish-existing | report | check | stats"
         default: daily
         type: string
       id:
@@ -27,11 +27,6 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 330
     env:
-      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
-      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-      YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '43 6 * * 1' && 'report' || 'daily') || inputs.mode }}
     steps:
       - uses: actions/checkout@v4
@@ -76,6 +71,13 @@ jobs:
         run: python -m ordelva.cli bootstrap
 
       - name: Run ORDELVA (${{ env.MODE }})
+        # secrets are exposed ONLY to this step (not to installers or third-party actions)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m ordelva.cli cloud --mode "$MODE" --id "${{ inputs.id || 'doggerland-short' }}"
 
       - name: Save state (history, QA reports, analytics)
@@ -99,4 +101,6 @@ jobs:
 
       - name: Alert on failure
         if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -c "from ordelva import notify; notify.alert('Workflow failed (${{ env.MODE }})', 'The scheduled run failed. Open the run log for details.')"
