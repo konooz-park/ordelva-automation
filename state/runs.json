@@ -1,0 +1,12 @@
+[
+ {
+  "date": "2026-11-22",
+  "kind": "dry-run",
+  "results": [
+   {
+    "topic": "Voynich manuscript",
+    "error": "request failed: https://en.wikipedia.org/w/api.php"
+   }
+  ]
+ }
+]

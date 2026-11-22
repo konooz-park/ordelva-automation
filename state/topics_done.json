@@ -1,8 +1,32 @@
 [
- {"title": "Doggerland", "id": "doggerland-short", "status": "published-before-automation"},
- {"title": "Storegga Slide", "id": "doggerland-short", "status": "covered-in-doggerland"},
- {"title": "Messinian salinity crisis", "id": "channel-existing", "status": "published-before-automation"},
- {"title": "Zanclean flood", "id": "channel-existing", "status": "covered-in-messinian"},
- {"title": "African humid period", "id": "channel-existing", "status": "published-before-automation"},
- {"title": "Eye of the Sahara", "id": "channel-existing", "status": "near-duplicate-of-sahara"}
+ {
+  "title": "Doggerland",
+  "id": "doggerland-short",
+  "status": "published-before-automation"
+ },
+ {
+  "title": "Storegga Slide",
+  "id": "doggerland-short",
+  "status": "covered-in-doggerland"
+ },
+ {
+  "title": "Messinian salinity crisis",
+  "id": "channel-existing",
+  "status": "published-before-automation"
+ },
+ {
+  "title": "Zanclean flood",
+  "id": "channel-existing",
+  "status": "covered-in-messinian"
+ },
+ {
+  "title": "African humid period",
+  "id": "channel-existing",
+  "status": "published-before-automation"
+ },
+ {
+  "title": "Eye of the Sahara",
+  "id": "channel-existing",
+  "status": "near-duplicate-of-sahara"
+ }
 ]
