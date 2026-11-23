@@ -18,7 +18,7 @@
       "title": "The Lost Land That Once Connected Britain to Europe",
       "format": "short",
       "status": "uploaded-private-test",
-      "updated": "2026-11-22 15:41",
+      "updated": "2026-11-23 18:48",
       "file": "/home/runner/work/ordelva-automation/ordelva-automation/output/doggerland-short.mp4",
       "seconds": 59.47,
       "qa_passed": true,
@@ -26,7 +26,7 @@
       "qa_failures": [],
       "youtube_id": "8b7HzWSom-I",
       "url": "https://www.youtube.com/watch?v=8b7HzWSom-I",
-      "privacy": "private",
+      "privacy": "public",
       "verified": {
         "id": "8b7HzWSom-I",
         "channel_ok": true,
@@ -39,7 +39,10 @@
         "processing": "succeeded",
         "ok": true,
         "url": "https://www.youtube.com/watch?v=8b7HzWSom-I"
-      }
+      },
+      "views": 1424,
+      "likes": 54,
+      "comments": 0
     },
     "20261122-chicxulub-crater": {
       "id": "20261122-chicxulub-crater",
@@ -81,9 +84,9 @@
     "title": "ORDELVA",
     "handle": "@ordelva",
     "uploads": "UUAK-bKBqIq0Yy9L4ctKBkSw",
-    "viewCount": "53",
-    "subscriberCount": "8",
+    "viewCount": "1336",
+    "subscriberCount": "17",
     "hiddenSubscriberCount": false,
-    "videoCount": "5"
+    "videoCount": "11"
   }
 }
