@@ -1,0 +1,30 @@
+{
+ "ok": true,
+ "problems": [],
+ "details": [
+  {
+   "claim": "Tardigrades can withstand extreme temperatures, vacuum, and radiation.",
+   "quote_found": true
+  },
+  {
+   "claim": "In 2007, samples of 30 tardigrades and 30 eggs, all dehydrated, were taken on the FOTON-M3 mission and exposed to vacuum, to both vacuum and UVA & B light, or to both vacuum and the full range of solar ultraviolet, for 10 days.",
+   "quote_found": true
+  },
+  {
+   "claim": "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi).",
+   "quote_found": true
+  },
+  {
+   "number": "1773",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1500",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "Tardigrades can even survive in space.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}

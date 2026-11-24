@@ -1,0 +1,186 @@
+{
+ "id": "20261124-chicxulub-crater",
+ "format": "short",
+ "title": "Chicxulub crater",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 90
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo discovered a mysterious anomaly while working for Petróleos Mexicanos (Pemex) as part of an airborne magnetic survey of the Gulf of Mexico north of the Yucatán Peninsula.",
+   "say": "in the late one nine seven zero s geophysicists glen penfield and antonio camargo discovered a mysterious anomaly while working for petróleos mexicanos pemex as part of an airborne magnetic survey of the gulf of mexico north of the yucatán peninsula",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/cdcb6101ff11.jpg",
+    "credit": "Adamcastforth / CC BY-SA 3.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "They noted a shallow 'bullseye' 180 km in diameter, suggesting an impact feature. Despite their findings, Pemex rejected the crater theory, attributing the feature to volcanic activity.",
+   "say": "they noted a shallow bullseye one hundred eighty kilometers in diameter suggesting an impact feature despite their findings pemex rejected the crater theory attributing the feature to volcanic activity",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/379c5b2b6a92.jpg",
+    "credit": "LawrieM / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 1990, Penfield obtained samples from Pemex wells, which showed shock-metamorphic materials, confirming the impact theory.",
+   "say": "in nineteen nine zero penfield obtained samples from pemex wells which showed shock metamorphic materials confirming the impact theory",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/de0272343005.jpg",
+    "credit": "Donald E. Davis / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The crater, named Chicxulub, was confirmed to be the site of the asteroid impact that triggered the mass extinction event 66 million years ago.",
+   "say": "the crater named chicxulub was confirmed to be the site of the asteroid impact that triggered the mass extinction event sixty six million years ago",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/92792f4e0ef0.jpg",
+    "credit": "Mikenorton / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Scientists now believe this asteroid impact was the primary cause of the Cretaceous–Paleogene extinction event, leading to the extinction of 75% of plant and animal species, including all non-avian dinosaurs.",
+   "say": "scientists now believe this asteroid impact was the primary cause of the cretaceous paleogene extinction event leading to the extinction of seventy five percent of plant and animal species including all non avian dinosaurs",
+   "scene": {
+    "type": "title",
+    "title": "CHICXULUB",
+    "subtitle": "MASS EXTINCTION",
+    "bg": {
+     "type": "image",
+     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/92792f4e0ef0.jpg",
+     "note": false
+    }
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "follow orderva for more",
+   "scene": {
+    "type": "landscape",
+    "mood": "dusk",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The crater was discovered in the late 1970s by geophysicists Glen Penfield and Antonio Camargo.",
+   "quote": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo were working for the Mexican state-owned oil company Petróleos Mexicanos (Pemex) as part of an airborne magnetic survey of the Gulf of Mexico north of the Yucatán Peninsula.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  },
+  {
+   "claim": "The crater was named after the nearby town of Chicxulub Pueblo.",
+   "quote": "The crater was named for the nearby town of Chicxulub Pueblo.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  },
+  {
+   "claim": "The impact occurred around 66 million years ago, coinciding with the Cretaceous–Paleogene extinction event.",
+   "quote": "A 2013 study published in Science estimated the age of the impact as 66,043,000 ± 11,000 years ago (± 43,000 years ago considering systematic error), based on multiple lines of evidence, including argon–argon dating of tektites from Haiti and bentonite horizons overlying the impact horizon in northeastern Montana.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Escultura en el parque central de Chicxulub Puerto, Yucatán, México, en el sitio donde se supone impactó el meteorito qu",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg",
+   "author": "Adamcastforth",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "The Center of the Chicxulub Impact Crater ( approx 21°20'N 89°30'W) it is off the Yucatan coast - near Chicxulub Puerto",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg",
+   "author": "LawrieM",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "http://www2.jpl.nasa.gov/files/images/captions/p45062.txt:\nChicxulub impact site\nDecember 28, 1994\n\nThis painting by Don",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg",
+   "author": "Donald E. Davis",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Schematic cross-section over the Chicxulub impact structure.",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png",
+   "author": "Mikenorton",
+   "licence": "CC BY-SA 4.0"
+  }
+ ],
+ "youtube": {
+  "title": "Chicxulub: The Impact That Changed Everything #shorts",
+  "description": "Discover how the Chicxulub crater, buried beneath the Yucatán Peninsula, was discovered and how it led to the extinction of the dinosaurs. Sources: https://en.wikipedia.org/wiki/Chicxulub_crater\n\nImage credits (Wikimedia Commons):\n- Adamcastforth – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg\n- LawrieM – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg\n- Donald E. Davis – Public domain – https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Chicxulub",
+   "crater",
+   "dinosaurs",
+   "extinction",
+   "impact",
+   "Yucatán",
+   "Mexico",
+   "geology",
+   "science"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "CHICXULUB CRATER",
+   "DINOSAURS GONE"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Chicxulub_crater"
+}

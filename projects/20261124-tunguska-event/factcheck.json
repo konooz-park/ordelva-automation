@@ -1,0 +1,39 @@
+{
+ "ok": false,
+ "problems": [
+  "claim None: The explosion devastated over 2,150 km2 of forest. (The quote states that the explosion devastated the taiga, flattening several mil)",
+  "claim None: Seismic stations recorded the event, estimating its magnitude to be near 5 on the Richter  (While the quote mentions that the explosion was recorded by seismological statio)",
+  "claim None: Bright nights were observed across Eurasia, with reports from as far as Stockholm and Tash (The quote describes bright nights observed across a large area, which supports t)",
+  "statement without source: The blast flattened millions of trees, creating a unique butterfly-shaped pattern. (The quote does not explicitly state that the blast flattened millions of trees o)"
+ ],
+ "details": [
+  {
+   "claim": "The explosion occurred on June 30, 1908, at 7:14 KRAT (0:14 UT).",
+   "quote_found": true
+  },
+  {
+   "claim": "Eyewitnesses reported a bright object streaking across the sky.",
+   "quote_found": true
+  },
+  {
+   "claim": "The explosion devastated over 2,150 km2 of forest.",
+   "quote_found": true
+  },
+  {
+   "claim": "Seismic stations recorded the event, estimating its magnitude to be near 5 on the Richter scale.",
+   "quote_found": true
+  },
+  {
+   "claim": "Bright nights were observed across Eurasia, with reports from as far as Stockholm and Tashkent.",
+   "quote_found": true
+  },
+  {
+   "number": "1927",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "The blast flattened millions of trees, creating a unique butterfly-shaped pattern.",
+   "verdict": "NOT_SUPPORTED"
+  }
+ ]
+}

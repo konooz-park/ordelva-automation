@@ -112,5 +112,30 @@
   "kind": "auto",
   "result": "error",
   "error": "dictionary update sequence element #0 has length 1; 2 is required"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Chicxulub crater",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "'>' not supported between instances of 'str' and 'NoneType'"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Tardigrade",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "'>' not supported between instances of 'str' and 'NoneType'"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Tunguska event",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261124-tunguska-event",
+  "decision": "hold",
+  "result": "hold"
  }
 ]

@@ -1,0 +1,230 @@
+{
+ "id": "20261124-tunguska-event",
+ "format": "short",
+ "title": "Tunguska event",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 173
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "On the morning of June 30, 1908, a massive explosion shattered the taiga of Central Siberia.",
+   "say": "On the morning of June 30, nineteen thirty-one, a massive explosion shattered the taiga of Central Siberia.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/d1647d5d95af.jpg",
+    "credit": "Artyom Svetlov / CC BY 4.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Eyewitnesses described a bright object streaking across the sky, leaving a trail of white light.",
+   "say": "Eyewitnesses described a bright object streaking across the sky, leaving a trail of white light.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/cb246b5124c4.jpg",
+    "credit": "Cmbrenneisen58 / CC BY 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The blast flattened millions of trees, creating a unique butterfly-shaped pattern.",
+   "say": "The blast flattened millions of trees, creating a unique butterfly-shaped pattern.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/ceb117f44b75.jpg",
+    "credit": "Leonid Kulik, the expedition to the Tung / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Seismic stations recorded the event, estimating its magnitude to be near 5 on the Richter scale.",
+   "say": "Seismic stations recorded the event, estimating its magnitude to be near five on the Richter scale.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/b36c2cb8da36.jpg",
+    "credit": "Phoenix CZE / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Bright nights were observed across Eurasia, with reports from as far as Stockholm and Tashkent.",
+   "say": "Bright nights were observed across Eurasia, with reports from as far as Stockholm and Tashkent.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/30ffdbdad4aa.jpg",
+    "credit": "ShavPS / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 1927, a scientific expedition led by Leonid Kulik discovered the epicenter.",
+   "say": "In nineteen twenty-seven, a scientific expedition led by Leonid Kulik discovered the epicenter.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/d1647d5d95af.jpg",
+    "credit": "Artyom Svetlov / CC BY 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The explosion is now recognized as a meteor air burst, though the exact nature of the object remains debated.",
+   "say": "The explosion is now recognized as a meteor air burst, though the exact nature of the object remains debated.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "Epicenter of the Tunguska even",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tunguska-event/media/3b6110417135.jpg",
+    "credit": "Frederick William Frohawk / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The explosion occurred on June 30, 1908, at 7:14 KRAT (0:14 UT).",
+   "quote": "The Tunguska event was a large explosion that occurred on the morning of 30 June [O.S. 17 June] 1908, at around 7:14 KRAT (0:14 UT).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tunguska_event"
+   ]
+  },
+  {
+   "claim": "Eyewitnesses reported a bright object streaking across the sky.",
+   "quote": "On the morning of June 30, 1908, a bolide, described by several witnesses as having a brightness and apparent size greater than that of the Sun, traversed Earth's atmosphere over a distance of at least 1,000 kilometres (620 mi).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tunguska_event"
+   ]
+  },
+  {
+   "claim": "The explosion devastated over 2,150 km2 of forest.",
+   "quote": "The blast was accompanied by an intense reddish glow, compared by some observers to a 'sparkling broom', while generating a column of fire and a cloud of smoke rising tens of kilometers into the air. The explosion occurred directly above the Southern swamp and devastated the taiga, flattening several million trees over an area of more than 2,150 km2 (830 sq mi).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tunguska_event"
+   ]
+  },
+  {
+   "claim": "Seismic stations recorded the event, estimating its magnitude to be near 5 on the Richter scale.",
+   "quote": "The explosion was recorded by seismological stations in three cities in the Russian Empire—Irkutsk, Tashkent, and Tiflis— as well as by a station in Jena in the German Empire. However, the records from the Russian cities were first published in 1910 by geophysicist Grigori Levitski, while those from Jena were published three years later; it was not until 1925 that a paper formally linked these data to the Tunguska event. Since the Richter scale was not proposed until 1935, it was not until the late 20th century that the shock wave generated by the explosion was determined to be equivalent to a seismic magnitude near 5.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tunguska_event"
+   ]
+  },
+  {
+   "claim": "Bright nights were observed across Eurasia, with reports from as far as Stockholm and Tashkent.",
+   "quote": "In the days following the explosion, western Eurasia experienced unusual atmospheric phenomena. On the evening of 30 June, bright nights of rare intensity were reported across an area of about 12,000,000 km2 (4,600,000 sq mi), to the extent that it became possible to read a newspaper or photograph monuments around midnight without artificial lighting.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tunguska_event"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Thin section of a fragment of \"John's stone\" from the epicenter of the Tunguska event. \"John's stone\" was suspected of b",
+   "source": "https://commons.wikimedia.org/wiki/File:JohnStone.jpg",
+   "author": "Cmbrenneisen58",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Melanonyx neglectus = Anser neglectus",
+   "source": "https://commons.wikimedia.org/wiki/File:Melanonyx_neglectus_Alpheraky.jpg",
+   "author": "Frederick William Frohawk",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Tunguska event",
+   "source": "https://commons.wikimedia.org/wiki/File:Moscow_State_University_Tunguska_event_2014-01_1389528710.JPG",
+   "author": "Artyom Svetlov",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Osharovo settlement on the Podkamennaya Tunguska River, view from a helicopter (Evenkiysky District, Krasnoyarsk Krai, R",
+   "source": "https://commons.wikimedia.org/wiki/File:Osharovo_settlement_on_the_Podkamennaya_Tunguska_River.jpg",
+   "author": "ShavPS",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Tunguska event. Trees were knocked down and burned over hundreds of square km by the Tunguska meteoroid impact. This ima",
+   "source": "https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg",
+   "author": "Leonid Kulik, the expedition to the Tunguska event",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Comparison of sizes of Empire State Building and Eiffel Tower to Chelyabinsk (CM) and Tunguska (TM) meteoroids.",
+   "source": "https://commons.wikimedia.org/wiki/File:Tunguska_and_Chelyabinsk_meteoroid_size.png",
+   "author": "Phoenix CZE",
+   "licence": "CC BY-SA 4.0"
+  }
+ ],
+ "youtube": {
+  "title": "Tunguska: The Mysterious 1908 Blast #shorts",
+  "description": "Discover the Tunguska event, a powerful explosion in 1908 that flattened millions of trees. Follow ORDELVA for more historical mysteries. Sources: Wikipedia, Tunguska Event: The Greatest Airburst in History (2019).\n\nImage credits (Wikimedia Commons):\n- Cmbrenneisen58 – CC BY 4.0 – https://commons.wikimedia.org/wiki/File:JohnStone.jpg\n- Frederick William Frohawk – Public domain – https://commons.wikimedia.org/wiki/File:Melanonyx_neglectus_Alpheraky.jpg\n- Artyom Svetlov – CC BY 4.0 – https://commons.wikimedia.org/wiki/File:Moscow_State_University_Tunguska_event_2014-01_1389528710.JPG\n- ShavPS – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Osharovo_settlement_on_the_Podkamennaya_Tunguska_River.jpg\n- Leonid Kulik, the expedition to the Tunguska event – Public domain – https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg\n- Phoenix CZE – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Tunguska_and_Chelyabinsk_meteoroid_size.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Tunguska Event",
+   "Meteor Impact",
+   "1908 Explosion",
+   "Siberia",
+   "Meteorology",
+   "History",
+   "Astronomy",
+   "Mystery"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "TUNGUSKA: 1908 BLA",
+   "MYSTERY UNVEILED"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Tunguska_event"
+}

@@ -1,0 +1,260 @@
+{
+ "id": "20261124-tardigrade",
+ "format": "short",
+ "title": "Tardigrade",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 48
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Meet the tardigrade, the ultimate survivor.",
+   "say": "Meet the tardigrade, the ultimate survivor.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/b25f50f4e6f5.jpg",
+    "credit": "FakirNL / CC BY-SA 4.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "First described in 1773, these tiny eight-legged wonders.",
+   "say": "First described in 1773, these tiny eight-legged wonders.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/084cf76eae30.jpg",
+    "credit": "Johann August Ephraim Goeze / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Can withstand extreme temperatures, vacuum, and radiation.",
+   "say": "Can withstand extreme temperatures, vacuum, and radiation.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/9d40f64a4c41.jpg",
+    "credit": "Jason Bond, Auburn University / CC BY 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Tardigrades can even survive in space.",
+   "say": "Tardigrades can even survive in space.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/c91da4ce767f.jpg",
+    "credit": "Hnapel / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Their secret? Entering a cryptobiotic 'tun' state.",
+   "say": "Their secret? Entering a cryptobiotic 'tun' state.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/598140f67549.jpg",
+    "credit": "Kiosya Y, Vončina K, Gąsiorek P (2021) E / CC BY 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Surviving up to 30 years without food or water.",
+   "say": "Surviving up to 30 years without food or water.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/107a924898ed.jpg",
+    "credit": "Chiswick Chap / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "With over 1,500 species, they're everywhere from the deep sea to the Antarctic.",
+   "say": "With over 1,500 species, they're everywhere from the deep sea to the Antarctic.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/8cf8f8e08809.jpg",
+    "credit": "E de Laplante / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi).",
+   "say": "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi).",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/48c1441c7b0c.jpg",
+    "credit": "PaleoEquii / CC BY 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "They've even withstood exposure to space for 10 days in the FOTON-M3 mission.",
+   "say": "They've even withstood exposure to space for 10 days in the FOTON-M3 mission.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-tardigrade/media/18f0d742ed4f.jpg",
+    "credit": "Chiswick Chap / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "End",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Tardigrades can withstand extreme temperatures, vacuum, and radiation.",
+   "quote": "Tardigrades can survive exposure to extreme temperatures, extreme pressures (both high and low), air deprivation, radiation, dehydration, and starvation – that would quickly kill most other forms of life.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  },
+  {
+   "claim": "In 2007, samples of 30 tardigrades and 30 eggs, all dehydrated, were taken on the FOTON-M3 mission and exposed to vacuum, to both vacuum and UVA & B light, or to both vacuum and the full range of solar ultraviolet, for 10 days.",
+   "quote": "In 2007, samples of 30 tardigrades and 30 eggs, all dehydrated, were taken on the FOTON-M3 mission and exposed to vacuum, to both vacuum and UVA & B light, or to both vacuum and the full range of solar ultraviolet, for 10 days.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  },
+  {
+   "claim": "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi).",
+   "quote": "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "'Noah's Ark 3.0' by Arno Coenen, Eusebiuskerk, Arnhem, the Netherlands. Among others tardigrade, coronavirus, and sperm ",
+   "source": "https://commons.wikimedia.org/wiki/File:%27Ark_van_Noach_3.0%27_door_Arno_Coenen,_Eusebiuskerk,_Arnhem_01_(cropped).jpg",
+   "author": "FakirNL",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Live photograph, Aptostichus simus from Monterey County",
+   "source": "https://commons.wikimedia.org/wiki/File:Aptostichus_simus_Monterey_County.jpg",
+   "author": "Jason Bond, Auburn University",
+   "licence": "CC BY 3.0"
+  },
+  {
+   "what": "Experiment BIOPAN-5 onderdeel van de Foton-M2 missie waarbij korstmossen overleefden in de ruimte.",
+   "source": "https://commons.wikimedia.org/wiki/File:Biopan_Space_Expo_001.jpg",
+   "author": "Hnapel",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Figure 6; Morphological details of Echiniscus insularis sp. nov.: A female in lateral view (SEM), B male cephalic append",
+   "source": "https://commons.wikimedia.org/wiki/File:Echiniscus_insularis_(10.3897-evolsyst.5.59997)_Figure_6_(white_background).jpg",
+   "author": "Kiosya Y, Vončina K, Gąsiorek P (2021) Echiniscidae in the Mascarenes: the wonders of Mauritius. Evolutionary Systematic",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Echiniscus testudo on a grain of sand. Doyère called this species \"Emydium testudo\".",
+   "source": "https://commons.wikimedia.org/wiki/File:Echiniscus_testudo_Doyere_1840_Pl_12_Fig_1.png",
+   "author": "E de Laplante",
+   "licence": "Public domain"
+  },
+  {
+   "what": "A digital reconstruction of the Cambrian Luolishaniid, Entothyreos synnaustrus.",
+   "source": "https://commons.wikimedia.org/wiki/File:Entothryeos.png",
+   "author": "PaleoEquii",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "The first recorded image of a tardigrade, 1773",
+   "source": "https://commons.wikimedia.org/wiki/File:First_Recorded_Image_of_Tardigrade.jpg",
+   "author": "Johann August Ephraim Goeze",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Isohypibius malawiensis Paratype",
+   "source": "https://commons.wikimedia.org/wiki/File:Isohypibius_malawiensis_Paratype.jpg",
+   "author": "Chiswick Chap",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Macrobiotus ovovittatus white background",
+   "source": "https://commons.wikimedia.org/wiki/File:Macrobiotus_ovovittatus_white_background.png",
+   "author": "Chiswick Chap",
+   "licence": "CC BY-SA 4.0"
+  }
+ ],
+ "youtube": {
+  "title": "Tardigrades: The Ultimate Survivors #shorts",
+  "description": "Meet the tardigrade, the ultimate survivor. First described in 1773, these tiny eight-legged wonders can withstand extreme temperatures, vacuum, and radiation. Follow ORDELVA for more. Sources: https://en.wikipedia.org/wiki/Tardigrade\n\nImage credits (Wikimedia Commons):\n- FakirNL – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:%27Ark_van_Noach_3.0%27_door_Arno_Coenen,_Eusebiuskerk,_Arnhem_01_(cropped).jpg\n- Jason Bond, Auburn University – CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Aptostichus_simus_Monterey_County.jpg\n- Hnapel – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Biopan_Space_Expo_001.jpg\n- Kiosya Y, Vončina K, Gąsiorek P (2021) Echiniscidae in the M – CC BY 4.0 – https://commons.wikimedia.org/wiki/File:Echiniscus_insularis_(10.3897-evolsyst.5.59997)_Figure_6_(white_background).jpg\n- E de Laplante – Public domain – https://commons.wikimedia.org/wiki/File:Echiniscus_testudo_Doyere_1840_Pl_12_Fig_1.png\n- PaleoEquii – CC BY 4.0 – https://commons.wikimedia.org/wiki/File:Entothryeos.png\n- Johann August Ephraim Goeze – Public domain – https://commons.wikimedia.org/wiki/File:First_Recorded_Image_of_Tardigrade.jpg\n- Chiswick Chap – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Isohypibius_malawiensis_Paratype.jpg\n- Chiswick Chap – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Macrobiotus_ovovittatus_white_background.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "tardigrade",
+   "water bear",
+   "moss piglet",
+   "extreme survival",
+   "science",
+   "biology",
+   "space",
+   "resilience",
+   "micro-animals",
+   "life"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "TARDIGRADES",
+   "THE ULTIMATE SURVI"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Tardigrade"
+}
