@@ -1,0 +1,205 @@
+{
+ "id": "20261124-machu-picchu",
+ "format": "short",
+ "title": "Machu Picchu",
+ "pillar": "history",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 78
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Machu Picchu, the enigmatic citadel, perched 2,430 meters high in the Andes, is one of the most iconic symbols of the Inca civilization.",
+   "say": "Machu Picchu, the enigmatic citadel, perched 2,430 meters high in the Andes, is one of the most iconic symbols of the Inca civilization.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Built around 1450, it served as an estate for Inca Emperor Pachacuti, though no contemporary written records exist to confirm this.",
+   "say": "Built around 1450, it served as an estate for Inca Emperor Pachacuti, though no contemporary written records exist to confirm this.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/682592f5fd7a.jpg",
+    "credit": "bobistraveling / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Occupied until the Spanish conquest, it was abandoned for nearly five centuries, with modern radiocarbon dating placing its occupation between c. 1420 and 1530.",
+   "say": "Occupied until the Spanish conquest, it was abandoned for nearly five centuries, with modern radiocarbon dating placing its occupation between c. 1420 and 1530.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/81739d718b4e.jpg",
+    "credit": "bobistraveling / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Rediscovered in 1911 by Hiram Bingham, it's now a UNESCO World Heritage Site, featuring finely crafted dry-stone walls and notable structures like the Temple of the Sun and the Intihuatana ritual stone.",
+   "say": "Rediscovered in 1911 by Hiram Bingham, it's now a UNESCO World Heritage Site, featuring finely crafted dry-stone walls and notable structures like the Temple of the Sun and the Intihuatana ritual stone.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/32155df5d26d.jpg",
+    "credit": "Martin St-Amant (S23678) / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Explore its terraces, temples, and the Intihuatana stone, which is believed to have been a solar clock.",
+   "say": "Explore its terraces, temples, and the Intihuatana stone, which is believed to have been a solar clock.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/f73d2bde78e0.jpg",
+    "credit": "Martin St-Amant (S23678) / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Machu Picchu, Peru's most visited tourist destination, receives over 1.5 million visitors annually.",
+   "say": "Machu Picchu, Peru's most visited tourist destination, receives over 1.5 million visitors annually.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/56d5f828ff8f.jpg",
+    "credit": "Diego Delso / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-machu-picchu/media/90f30610708c.jpg",
+    "credit": "Hiram Bingham III / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Machu Picchu was built around 1450.",
+   "quote": "Estimated to be built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu"
+   ]
+  },
+  {
+   "claim": "Machu Picchu was occupied from around 1420 to 1530.",
+   "quote": "Similar conclusions supporting an earlier 15th-century chronology have been reported by other radiocarbon studies.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu"
+   ]
+  },
+  {
+   "claim": "It was rediscovered in 1911 by Hiram Bingham.",
+   "quote": "The site was brought to international attention in 1911 by the American historian Hiram Bingham III.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "143 Intiwatana Machu Picchu Peru 2406",
+   "source": "https://commons.wikimedia.org/wiki/File:143_Intiwatana_Machu_Picchu_Peru_2406_(14977268637).jpg",
+   "author": "bobistraveling",
+   "licence": "CC BY 2.0"
+  },
+  {
+   "what": "218 View from Inca Trail to Sun Gate Machu Picchu Peru 2486",
+   "source": "https://commons.wikimedia.org/wiki/File:218_View_from_Inca_Trail_to_Sun_Gate_Machu_Picchu_Peru_2486_(14977553069).jpg",
+   "author": "bobistraveling",
+   "licence": "CC BY 2.0"
+  },
+  {
+   "what": "Partially restored inca building in Machu Picchu",
+   "source": "https://commons.wikimedia.org/wiki/File:90_-_Machu_Picchu_-_Juin_2009_(cropped).jpg",
+   "author": "Martin St-Amant (S23678)",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Machu Picchu from Wayna Picchu",
+   "source": "https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.edit3.jpg",
+   "author": "Martin St-Amant (S23678)",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Pachacútec statue, Aguas Calientes, Cuzco, Peru",
+   "source": "https://commons.wikimedia.org/wiki/File:Aguas_Calientes,_Cuzco,_Per%C3%BA,_2015-07-30,_DD_68.JPG",
+   "author": "Diego Delso",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "The monolith is grooved at its top, evidently to support a wooden rafter",
+   "source": "https://commons.wikimedia.org/wiki/File:Agust%C3%ADn_Liz%C3%A1rraga_signature_on_Temple_of_Three_Windows_of_Machu_Picchu_enhanced.jpg",
+   "author": "Hiram Bingham III",
+   "licence": "Public domain"
+  }
+ ],
+ "youtube": {
+  "title": "Machu Picchu: The Lost City of the Incas #shorts",
+  "description": "Machu Picchu, the enigmatic citadel, was built around 1450 as an estate for Inca Emperor Pachacuti, and was occupied until the Spanish conquest in the 16th century. Rediscovered in 1911, it's now a UNESCO World Heritage Site. Follow ORDELVA for more. Sources: https://en.wikipedia.org/wiki/Machu_Picchu\n\nImage credits (Wikimedia Commons):\n- bobistraveling – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:143_Intiwatana_Machu_Picchu_Peru_2406_(14977268637).jpg\n- bobistraveling – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:218_View_from_Inca_Trail_to_Sun_Gate_Machu_Picchu_Peru_2486_(14977553069).jpg\n- Martin St-Amant (S23678) – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:90_-_Machu_Picchu_-_Juin_2009_(cropped).jpg\n- Martin St-Amant (S23678) – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.edit3.jpg\n- Diego Delso – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Aguas_Calientes,_Cuzco,_Per%C3%BA,_2015-07-30,_DD_68.JPG\n- Hiram Bingham III – Public domain – https://commons.wikimedia.org/wiki/File:Agust%C3%ADn_Liz%C3%A1rraga_signature_on_Temple_of_Three_Windows_of_Machu_Picchu_enhanced.jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Machu Picchu",
+   "Inca",
+   "Peru",
+   "history",
+   "archaeology",
+   "UNESCO",
+   "World Heritage Site",
+   "15th century",
+   "16th century"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "MACHU PICCHU",
+   "PERU'S ANCIENT WON"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Machu_Picchu"
+}

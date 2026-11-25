@@ -137,5 +137,31 @@
   "id": "20261124-tunguska-event",
   "decision": "hold",
   "result": "hold"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Chicxulub crater",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261124-chicxulub-crater",
+  "decision": "hold",
+  "result": "hold"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Lake Baikal",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261124-lake-baikal",
+  "decision": "hold",
+  "result": "hold"
+ },
+ {
+  "date": "2026-11-24",
+  "topic": "Machu Picchu",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "'>' not supported between instances of 'str' and 'NoneType'"
  }
 ]

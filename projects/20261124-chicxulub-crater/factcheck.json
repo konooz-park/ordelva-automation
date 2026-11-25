@@ -1,21 +1,29 @@
 {
- "ok": true,
- "problems": [],
+ "ok": false,
+ "problems": [
+  "only 2 claims listed",
+  "quote not found in source: The crater, two hundred kilometers wide, was formed sixty-six million years ago,",
+  "quote not found in source: Impact evidence includes shocked quartz, tektites, and a gravity anomaly, suppor"
+ ],
  "details": [
   {
-   "claim": "The crater was discovered in the late 1970s by geophysicists Glen Penfield and Antonio Camargo.",
-   "quote_found": true
+   "claim": "The Chicxulub crater, 200 km wide, was formed 66 million years ago.",
+   "quote_found": false
   },
   {
-   "claim": "The crater was named after the nearby town of Chicxulub Pueblo.",
-   "quote_found": true
+   "claim": "Impact evidence includes shocked quartz, tektites, and a gravity anomaly.",
+   "quote_found": false
   },
   {
-   "claim": "The impact occurred around 66 million years ago, coinciding with the Cretaceous–Paleogene extinction event.",
-   "quote_found": true
+   "number": "75",
+   "note": "in source text but not in a cited quote"
   },
   {
-   "number": "1990",
+   "number": "200",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1970",
    "note": "in source text but not in a cited quote"
   },
   {
@@ -23,15 +31,11 @@
    "note": "in source text but not in a cited quote"
   },
   {
-   "number": "180",
+   "number": "1990",
    "note": "in source text but not in a cited quote"
   },
   {
-   "number": "75",
-   "note": "in source text but not in a cited quote"
-  },
-  {
-   "extra_statement": "Pemex rejected the crater theory, attributing the feature to volcanic activity.",
+   "extra_statement": "Glen Penfield and Antonio Camargo discovered a mysterious ring beneath the Yucatán Peninsula in the late 1970s.",
    "verdict": "SUPPORTED"
   }
  ]

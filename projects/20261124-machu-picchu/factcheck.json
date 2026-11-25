@@ -1,0 +1,38 @@
+{
+ "ok": true,
+ "problems": [],
+ "details": [
+  {
+   "claim": "Machu Picchu was built around 1450.",
+   "quote_found": true
+  },
+  {
+   "claim": "Machu Picchu was occupied from around 1420 to 1530.",
+   "quote_found": true
+  },
+  {
+   "claim": "It was rediscovered in 1911 by Hiram Bingham.",
+   "quote_found": true
+  },
+  {
+   "number": "2430",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1.5",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1420",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1530",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "It served as an estate for Inca Emperor Pachacuti, though no contemporary written records exist to confirm this.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}

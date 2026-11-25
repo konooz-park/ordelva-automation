@@ -1,0 +1,45 @@
+{
+ "ok": false,
+ "problems": [
+  "quote not found in source: The lake is the world's deepest, with a maximum depth of 1,642 metres (5,387 fee",
+  "statement without source: Its clear waters, rich in oxygen, support unique fish like the golomyanka, which live in depths of 100 to 500 meters. (The quote does not fully support the claim. The quote mentions that the golomyan)"
+ ],
+ "details": [
+  {
+   "claim": "Lake Baikal is the world's deepest and oldest lake.",
+   "quote_found": false
+  },
+  {
+   "claim": "It spans 31,722 square kilometers.",
+   "quote_found": true
+  },
+  {
+   "claim": "Home to 2,500 endemic species.",
+   "quote_found": true
+  },
+  {
+   "claim": "The Baikal seal, or nerpa, is unique to this ancient lake.",
+   "quote_found": true
+  },
+  {
+   "claim": "Holds 23,615 cubic kilometers of fresh water.",
+   "quote_found": true
+  },
+  {
+   "number": "500",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "1642",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "100",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "Its clear waters, rich in oxygen, support unique fish like the golomyanka, which live in depths of 100 to 500 meters.",
+   "verdict": "NOT_SUPPORTED"
+  }
+ ]
+}

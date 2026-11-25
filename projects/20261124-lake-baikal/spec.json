@@ -1,0 +1,224 @@
+{
+ "id": "20261124-lake-baikal",
+ "format": "short",
+ "title": "Lake Baikal",
+ "pillar": "geography",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "wonder",
+  "seed": 638
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Discover Lake Baikal, the world's deepest and oldest lake.",
+   "say": "discover lake baikal the world's deepest and oldest lake",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/904079b4f94b.jpg",
+    "credit": "Provided by the SeaWiFS Project, NASA/Go / Public domain"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Spanning 31,722 square kilometers, it's larger than Belgium and the deepest lake in the world, with a maximum depth of 1,642 meters.",
+   "say": "in southern siberia russia it spans 31,722 square kilometers larger than belgium and the deepest lake in the world with a maximum depth of 1,642 meters",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/1b6349d11595.jpg",
+    "credit": "de:Benutzer:Sansculotte / CC BY-SA 2.0 de"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Home to 2,500 endemic species, Lake Baikal is a vast ecosystem.",
+   "say": "home to 2,500 endemic species lake baikal is a vast ecosystem",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/38ad616c9814.jpg",
+    "credit": "Аркадий Зарубин / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The Baikal seal, or nerpa, is unique to this ancient lake, and the lake is a UNESCO World Heritage Site.",
+   "say": "the baikal seal or nerpa is unique to this ancient lake and the lake is a unesco world heritage site",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/b1b44a92411c.jpg",
+    "credit": "Xchgall / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Its clear waters, rich in oxygen, support unique fish like the golomyanka, which live in depths of 100 to 500 meters.",
+   "say": "its clear waters rich in oxygen support unique fish like the golomyanka which live in depths of 100 to 500 meters",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/be7535275fc3.jpg",
+    "credit": "Jacques Descloitres, MODIS Land Rapid Re / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Lake Baikal, a natural wonder, is home to thousands of species of plants and animals, many of them endemic to the region.",
+   "say": "lake baikal a natural wonder is home to thousands of species of plants and animals many of them endemic to the region",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/ec7895314ae4.jpg",
+    "credit": "Brücke-Osteuropa / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "follow ordelva for more",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-lake-baikal/media/d60ab1dbd01d.jpg",
+    "credit": "Sansculotte / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Lake Baikal is the world's deepest and oldest lake.",
+   "quote": "The lake is the world's deepest, with a maximum depth of 1,642 metres (5,387 feet), and is estimated to be 25–30 million years old.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal"
+   ]
+  },
+  {
+   "claim": "It spans 31,722 square kilometers.",
+   "quote": "At 31,722 km2 (12,248 sq mi)—slightly larger than Belgium—Lake Baikal is the world's seventh-largest lake by surface area.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal"
+   ]
+  },
+  {
+   "claim": "Home to 2,500 endemic species.",
+   "quote": "It hosts more than 1,000 species of plants and 2,500 species of animals based on current knowledge, but the actual figures for both groups are believed to be significantly higher.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal"
+   ]
+  },
+  {
+   "claim": "The Baikal seal, or nerpa, is unique to this ancient lake.",
+   "quote": "The Baikal seal or nerpa (Pusa sibirica) is endemic to Lake Baikal.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal"
+   ]
+  },
+  {
+   "claim": "Holds 23,615 cubic kilometers of fresh water.",
+   "quote": "It is the world's largest freshwater lake by volume, containing 23,615.39 km3 (5,670 cu mi) of water or 22–23% of the world's fresh surface water.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Baikal"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Eastern shore of Lake Baikal, Svyatoy Nos Island (Holy Nose, top elevation 1877 m)",
+   "source": "https://commons.wikimedia.org/wiki/File:26_swiatoinos.jpg",
+   "author": "de:Benutzer:Sansculotte",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  {
+   "what": "Flohkrebs aus dem Baikal-See",
+   "source": "https://commons.wikimedia.org/wiki/File:Baikal-Flohkrebs.jpg",
+   "author": "Brücke-Osteuropa",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Lake Baikal\nSensor OrbView-2/SeaWiFS\nVisible Earth v1 ID 3678",
+   "source": "https://commons.wikimedia.org/wiki/File:Baikal-S1999276045323.png",
+   "author": "Provided by the SeaWiFS Project, NASA/Goddard Space Flight Center, and ORBIMAGE",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Lake Baikal from satellite\nSensor: Terra/MODIS",
+   "source": "https://commons.wikimedia.org/wiki/File:Baikal.A2001296.0420.250m-NASA.jpg",
+   "author": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Байкал",
+   "source": "https://commons.wikimedia.org/wiki/File:Baikal_1739.jpg",
+   "author": "Xchgall",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Larus vegae mongolicus, Lake Baikal, Russia",
+   "source": "https://commons.wikimedia.org/wiki/File:Chayki_v_Chivyrkuyskom_zalive.JPG",
+   "author": "Аркадий Зарубин",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Map of Baikal Lake",
+   "source": "https://commons.wikimedia.org/wiki/File:Karte_baikal2.png",
+   "author": "Sansculotte",
+   "licence": "CC BY-SA 3.0"
+  }
+ ],
+ "youtube": {
+  "title": "Discover Lake Baikal #shorts",
+  "description": "Explore the world's deepest and oldest lake, Lake Baikal. Home to 2,500 endemic species and a UNESCO World Heritage Site. Follow ORDELVA for more. \n\nSources: https://en.wikipedia.org/wiki/Lake_Baikal\n\nImage credits (Wikimedia Commons):\n- de:Benutzer:Sansculotte – CC BY-SA 2.0 de – https://commons.wikimedia.org/wiki/File:26_swiatoinos.jpg\n- Brücke-Osteuropa – Public domain – https://commons.wikimedia.org/wiki/File:Baikal-Flohkrebs.jpg\n- Provided by the SeaWiFS Project, NASA/Goddard Space Flight C – Public domain – https://commons.wikimedia.org/wiki/File:Baikal-S1999276045323.png\n- Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GS – Public domain – https://commons.wikimedia.org/wiki/File:Baikal.A2001296.0420.250m-NASA.jpg\n- Xchgall – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Baikal_1739.jpg\n- Аркадий Зарубин – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Chayki_v_Chivyrkuyskom_zalive.JPG\n- Sansculotte – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Karte_baikal2.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Lake Baikal",
+   "Russia",
+   "Siberia",
+   "UNESCO",
+   "Endemic Species",
+   "Deep Lake",
+   "Oldest Lake",
+   "Freshwater Ecosystem",
+   "World Heritage Site"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "LAKE BAIKAL",
+   "DEEPEST & OLDEST"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Lake_Baikal"
+}

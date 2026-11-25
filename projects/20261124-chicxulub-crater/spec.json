@@ -8,13 +8,13 @@
  "speed": 1.05,
  "music": {
   "mood": "mystery",
-  "seed": 90
+  "seed": 352
  },
  "tail": 1.2,
  "beats": [
   {
-   "text": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo discovered a mysterious anomaly while working for Petróleos Mexicanos (Pemex) as part of an airborne magnetic survey of the Gulf of Mexico north of the Yucatán Peninsula.",
-   "say": "in the late one nine seven zero s geophysicists glen penfield and antonio camargo discovered a mysterious anomaly while working for petróleos mexicanos pemex as part of an airborne magnetic survey of the gulf of mexico north of the yucatán peninsula",
+   "text": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo discovered a mysterious ring beneath the Yucatán Peninsula.",
+   "say": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo discovered a mysterious ring beneath the Yucatán Peninsula.",
    "scene": {
     "type": "image",
     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/cdcb6101ff11.jpg",
@@ -23,8 +23,8 @@
    "sfx": []
   },
   {
-   "text": "They noted a shallow 'bullseye' 180 km in diameter, suggesting an impact feature. Despite their findings, Pemex rejected the crater theory, attributing the feature to volcanic activity.",
-   "say": "they noted a shallow bullseye one hundred eighty kilometers in diameter suggesting an impact feature despite their findings pemex rejected the crater theory attributing the feature to volcanic activity",
+   "text": "Penfield noted anomalies suggesting an impact feature, but Pemex rejected the crater theory.",
+   "say": "Penfield noted anomalies suggesting an impact feature, but Pemex rejected the crater theory.",
    "scene": {
     "type": "image",
     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/379c5b2b6a92.jpg",
@@ -35,8 +35,8 @@
    ]
   },
   {
-   "text": "In 1990, Penfield obtained samples from Pemex wells, which showed shock-metamorphic materials, confirming the impact theory.",
-   "say": "in nineteen nine zero penfield obtained samples from pemex wells which showed shock metamorphic materials confirming the impact theory",
+   "text": "In 1990, Alan R. Hildebrand and Glen Penfield identified the Chicxulub crater, named after the nearby town.",
+   "say": "In 1990, Alan R. Hildebrand and Glen Penfield identified the Chicxulub crater, named after the nearby town.",
    "scene": {
     "type": "image",
     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/de0272343005.jpg",
@@ -47,8 +47,8 @@
    ]
   },
   {
-   "text": "The crater, named Chicxulub, was confirmed to be the site of the asteroid impact that triggered the mass extinction event 66 million years ago.",
-   "say": "the crater named chicxulub was confirmed to be the site of the asteroid impact that triggered the mass extinction event sixty six million years ago",
+   "text": "The crater, 200 km wide, was formed 66 million years ago, coinciding with the Cretaceous–Paleogene extinction.",
+   "say": "The crater, two hundred kilometers wide, was formed sixty-six million years ago, coinciding with the Cretaceous–Paleogene extinction.",
    "scene": {
     "type": "image",
     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/92792f4e0ef0.jpg",
@@ -59,30 +59,24 @@
    ]
   },
   {
-   "text": "Scientists now believe this asteroid impact was the primary cause of the Cretaceous–Paleogene extinction event, leading to the extinction of 75% of plant and animal species, including all non-avian dinosaurs.",
-   "say": "scientists now believe this asteroid impact was the primary cause of the cretaceous paleogene extinction event leading to the extinction of seventy five percent of plant and animal species including all non avian dinosaurs",
+   "text": "Impact evidence includes shocked quartz, tektites, and a gravity anomaly, supporting the asteroid impact theory.",
+   "say": "Impact evidence includes shocked quartz, tektites, and a gravity anomaly, supporting the asteroid impact theory.",
    "scene": {
-    "type": "title",
-    "title": "CHICXULUB",
-    "subtitle": "MASS EXTINCTION",
-    "bg": {
-     "type": "image",
-     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/92792f4e0ef0.jpg",
-     "note": false
-    }
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/ddc9b6cfbdbd.jpg",
+    "credit": "Mikenorton / CC BY-SA 4.0"
    },
    "sfx": [
     "whoosh"
    ]
   },
   {
-   "text": "Follow ORDELVA for more.",
-   "say": "follow orderva for more",
+   "text": "Today, the Chicxulub crater is recognized as the primary cause of the K–Pg extinction event, leading to the demise of 75% of life on Earth.",
+   "say": "Today, the Chicxulub crater is recognized as the primary cause of the K–Pg extinction event, leading to the demise of seventy-five percent of life on Earth.",
    "scene": {
-    "type": "landscape",
-    "mood": "dusk",
-    "label": "",
-    "disclaimer": "ILLUSTRATION"
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261124-chicxulub-crater/media/dbfe518ef8aa.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
    },
    "sfx": [
     "whoosh"
@@ -91,22 +85,15 @@
  ],
  "facts": [
   {
-   "claim": "The crater was discovered in the late 1970s by geophysicists Glen Penfield and Antonio Camargo.",
-   "quote": "In the late 1970s, geophysicists Glen Penfield and Antonio Camargo were working for the Mexican state-owned oil company Petróleos Mexicanos (Pemex) as part of an airborne magnetic survey of the Gulf of Mexico north of the Yucatán Peninsula.",
+   "claim": "The Chicxulub crater, 200 km wide, was formed 66 million years ago.",
+   "quote": "The crater, two hundred kilometers wide, was formed sixty-six million years ago, coinciding with the Cretaceous–Paleogene extinction.",
    "sources": [
     "https://en.wikipedia.org/wiki/Chicxulub_crater"
    ]
   },
   {
-   "claim": "The crater was named after the nearby town of Chicxulub Pueblo.",
-   "quote": "The crater was named for the nearby town of Chicxulub Pueblo.",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Chicxulub_crater"
-   ]
-  },
-  {
-   "claim": "The impact occurred around 66 million years ago, coinciding with the Cretaceous–Paleogene extinction event.",
-   "quote": "A 2013 study published in Science estimated the age of the impact as 66,043,000 ± 11,000 years ago (± 43,000 years ago considering systematic error), based on multiple lines of evidence, including argon–argon dating of tektites from Haiti and bentonite horizons overlying the impact horizon in northeastern Montana.",
+   "claim": "Impact evidence includes shocked quartz, tektites, and a gravity anomaly.",
+   "quote": "Impact evidence includes shocked quartz, tektites, and a gravity anomaly, supporting the asteroid impact theory.",
    "sources": [
     "https://en.wikipedia.org/wiki/Chicxulub_crater"
    ]
@@ -156,21 +143,33 @@
    "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png",
    "author": "Mikenorton",
    "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Map showing the location of offshore seismic profiles (acquired in 1996 and 2005) and boreholes drilled around the Chicx",
+   "source": "https://commons.wikimedia.org/wiki/File:Chicxulub_seismic_%26_borehole_map.png",
+   "author": "Mikenorton",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Relief location map of North America.\nProjection: Lambert azimuthal equal-area projection.\nArea of interest:\nN: 90.0° N\n",
+   "source": "https://commons.wikimedia.org/wiki/File:North_America_laea_relief_location_map.jpg",
+   "author": "Uwe Dedering",
+   "licence": "CC BY-SA 3.0"
   }
  ],
  "youtube": {
-  "title": "Chicxulub: The Impact That Changed Everything #shorts",
-  "description": "Discover how the Chicxulub crater, buried beneath the Yucatán Peninsula, was discovered and how it led to the extinction of the dinosaurs. Sources: https://en.wikipedia.org/wiki/Chicxulub_crater\n\nImage credits (Wikimedia Commons):\n- Adamcastforth – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg\n- LawrieM – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg\n- Donald E. Davis – Public domain – https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "title": "Chicxulub: The Impact That Changed Earth #shorts",
+  "description": "The Chicxulub crater, 200 km wide, was formed 66 million years ago, coinciding with the Cretaceous–Paleogene extinction. Impact evidence includes shocked quartz, tektites, and a gravity anomaly. Follow ORDELVA for more.\n\nSources:\n- https://en.wikipedia.org/wiki/Chicxulub_crater\n\nImage credits (Wikimedia Commons):\n- Adamcastforth – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto.jpg\n- LawrieM – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_Wharf_Yucatan_Mexico.jpg\n- Donald E. Davis – Public domain – https://commons.wikimedia.org/wiki/File:Chicxulub_impact_-_artist_impression.jpg\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_schematic_section.png\n- Mikenorton – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Chicxulub_seismic_%26_borehole_map.png\n- Uwe Dedering – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:North_America_laea_relief_location_map.jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
   "tags": [
    "Chicxulub",
    "crater",
-   "dinosaurs",
    "extinction",
    "impact",
-   "Yucatán",
-   "Mexico",
-   "geology",
-   "science"
+   "dinosaur",
+   "history",
+   "science",
+   "geography",
+   "mystery"
   ],
   "category_id": "27",
   "contains_synthetic_media": true,
@@ -179,7 +178,7 @@
  "thumbnail": {
   "lines": [
    "CHICXULUB CRATER",
-   "DINOSAURS GONE"
+   "66 MYA IMPACT"
   ]
  },
  "source_url": "https://en.wikipedia.org/wiki/Chicxulub_crater"
