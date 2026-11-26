@@ -1,0 +1,40 @@
+{
+ "ok": false,
+ "problems": [
+  "statement without source: Its landscape is a mix of arid coastal plains and rugged mountains. (The quote mentions the coastal plains and monsoon winds, but does not explicitly)"
+ ],
+ "details": [
+  {
+   "claim": "Socotra is home to over 37% of its plant species found nowhere else.",
+   "quote_found": true
+  },
+  {
+   "claim": "Dragon's Blood Trees thrive here, their red sap a symbol of the island's isolation.",
+   "quote_found": true
+  },
+  {
+   "claim": "In 2008, Socotra was recognized as a UNESCO World Heritage Site.",
+   "quote_found": true
+  },
+  {
+   "number": "380",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "Socotra, an island of unique beauty and mystery, sits 380 kilometres south of the Arabian Peninsula.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "Its landscape is a mix of arid coastal plains and rugged mountains.",
+   "verdict": "NOT_SUPPORTED"
+  },
+  {
+   "extra_statement": "Socotra's history is as intriguing as its geography.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "From ancient trade routes to modern conflicts, the island's story is complex.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}

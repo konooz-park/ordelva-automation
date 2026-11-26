@@ -1,0 +1,74 @@
+{
+  "video": "/home/runner/work/ordelva-automation/ordelva-automation/output/20261126-tardigrade.mp4",
+  "duration": 58.833333,
+  "lufs": -14.0,
+  "true_peak": -1.5,
+  "passed": true,
+  "checks": [
+    {
+      "check": "resolution",
+      "ok": true,
+      "detail": "1080x1920"
+    },
+    {
+      "check": "codec",
+      "ok": true,
+      "detail": "h264 yuv420p"
+    },
+    {
+      "check": "fps",
+      "ok": true,
+      "detail": "30.00"
+    },
+    {
+      "check": "duration",
+      "ok": true,
+      "detail": "58.83s (allowed 30-60)"
+    },
+    {
+      "check": "audio_stream",
+      "ok": true,
+      "detail": "aac"
+    },
+    {
+      "check": "loudness",
+      "ok": true,
+      "detail": "-14.0 LUFS (target -14)"
+    },
+    {
+      "check": "true_peak",
+      "ok": true,
+      "detail": "-1.5 dBTP"
+    },
+    {
+      "check": "no_dead_air",
+      "ok": true,
+      "detail": "0 silent gaps >1.5s inside video"
+    },
+    {
+      "check": "no_black_frames",
+      "ok": true,
+      "detail": "0 black segments inside video"
+    },
+    {
+      "check": "captions",
+      "ok": true,
+      "detail": "108 caption events burned in; SRT for YouTube CC also written"
+    },
+    {
+      "check": "facts_have_sources",
+      "ok": true,
+      "detail": "3 claims, all with sources"
+    },
+    {
+      "check": "assets_have_licences",
+      "ok": true,
+      "detail": "11 assets with licence"
+    },
+    {
+      "check": "transcript_matches_script",
+      "ok": true,
+      "detail": "Whisper match 0.98"
+    }
+  ]
+}

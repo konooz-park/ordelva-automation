@@ -1,0 +1,191 @@
+{
+ "id": "20261126-socotra",
+ "format": "short",
+ "title": "Socotra",
+ "pillar": "geography",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "wonder",
+  "seed": 793
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Socotra, an island of unique beauty and mystery, sits 380 kilometres south of the Arabian Peninsula.",
+   "say": "Socotra, an island of unique beauty and mystery, sits 380 kilometres south of the Arabian Peninsula.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/98b6d9537f07.jpg",
+    "credit": "Rod Waddington from Kergunyah, Australia / CC BY-SA 2.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Its landscape is a mix of arid coastal plains and rugged mountains, home to over 37% of its plant species found nowhere else.",
+   "say": "Its landscape is a mix of arid coastal plains and rugged mountains, home to over 37% of its plant species found nowhere else.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/db00261ce012.jpg",
+    "credit": "Rod Waddington from Kergunyah, Australia / CC BY-SA 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Endemic species like the Dragon's Blood Tree thrive here, their red sap a symbol of the island's isolation.",
+   "say": "Endemic species like the Dragon's Blood Tree thrive here, their red sap a symbol of the island's isolation.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/644d77cf0d9d.jpg",
+    "credit": "Gerry &amp; Bonni / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Socotra's history is as intriguing as its geography. From ancient trade routes to modern conflicts, the island's story is complex.",
+   "say": "Socotra's history is as intriguing as its geography. From ancient trade routes to modern conflicts, the island's story is complex.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/f5254d3f5a45.jpg",
+    "credit": "Gerry &amp; Bonni / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 2008, Socotra was recognized as a UNESCO World Heritage Site, celebrating its natural and cultural uniqueness.",
+   "say": "In 2008, Socotra was recognized as a UNESCO World Heritage Site, celebrating its natural and cultural uniqueness.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/e0681f3c1a43.jpg",
+    "credit": "Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-socotra/media/6fc932aa2906.jpg",
+    "credit": "Rod Waddington from Kergunyah, Australia / CC BY-SA 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Socotra is home to over 37% of its plant species found nowhere else.",
+   "quote": "It has 835 vascular plant species, of which 37% are endemic.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Socotra"
+   ]
+  },
+  {
+   "claim": "Dragon's Blood Trees thrive here, their red sap a symbol of the island's isolation.",
+   "quote": "The island is known for its exceptional level of endemism, with about 37% of its plant species, 90% of its reptile species, and 95% of its land snail species found nowhere else on Earth.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Socotra"
+   ]
+  },
+  {
+   "claim": "In 2008, Socotra was recognized as a UNESCO World Heritage Site.",
+   "quote": "In 2008, Socotra was recognised as a UNESCO World Heritage Site.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Socotra"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Dragon blood trees (Dracaena cinnabari) in Dixam canyon, Socotra Island, Yemen",
+   "source": "https://commons.wikimedia.org/wiki/File:Dixam_canyon_(6407166887).jpg",
+   "author": "Gerry &amp; Bonni",
+   "licence": "CC BY 2.0"
+  },
+  {
+   "what": "Dragon's Blood Tree (Dracaena cinnabari) — endemic to/on Socotra island, Yemen.",
+   "source": "https://commons.wikimedia.org/wiki/File:Dragons_Blood_Tree,_Socotra_Island_(10941931846).jpg",
+   "author": "Rod Waddington from Kergunyah, Australia",
+   "licence": "CC BY-SA 2.0"
+  },
+  {
+   "what": "people island tourists yemen socotra soqotra",
+   "source": "https://commons.wikimedia.org/wiki/File:Socotra_-_Local_men_(6407165515).jpg",
+   "author": "Gerry &amp; Bonni",
+   "licence": "CC BY 2.0"
+  },
+  {
+   "what": "Socotra Island",
+   "source": "https://commons.wikimedia.org/wiki/File:Socotra_Island_(11007223546).jpg",
+   "author": "Rod Waddington from Kergunyah, Australia",
+   "licence": "CC BY-SA 2.0"
+  },
+  {
+   "what": "Socotra satview.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Socotra_satview.jpg",
+   "author": "unknown",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Children of Socotra Island, Yemen",
+   "source": "https://commons.wikimedia.org/wiki/File:Socotri_Children,_Socotra_Is_(10942706844).jpg",
+   "author": "Rod Waddington from Kergunyah, Australia",
+   "licence": "CC BY-SA 2.0"
+  }
+ ],
+ "youtube": {
+  "title": "Socotra: The Island of Endemics #shorts",
+  "description": "Explore the unique landscapes and endemic species of Socotra. From ancient trade routes to modern conflicts, learn about the island's rich history and why it was recognized as a UNESCO World Heritage Site. #Socotra #Endemics #UNESCO\n\nSources:\n- https://en.wikipedia.org/wiki/Socotra\n\nImage credits (Wikimedia Commons):\n- Gerry &amp; Bonni – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:Dixam_canyon_(6407166887).jpg\n- Rod Waddington from Kergunyah, Australia – CC BY-SA 2.0 – https://commons.wikimedia.org/wiki/File:Dragons_Blood_Tree,_Socotra_Island_(10941931846).jpg\n- Gerry &amp; Bonni – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:Socotra_-_Local_men_(6407165515).jpg\n- Rod Waddington from Kergunyah, Australia – CC BY-SA 2.0 – https://commons.wikimedia.org/wiki/File:Socotra_Island_(11007223546).jpg\n- unknown – Public domain – https://commons.wikimedia.org/wiki/File:Socotra_satview.jpg\n- Rod Waddington from Kergunyah, Australia – CC BY-SA 2.0 – https://commons.wikimedia.org/wiki/File:Socotri_Children,_Socotra_Is_(10942706844).jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Socotra",
+   "Island",
+   "Endemics",
+   "UNESCO",
+   "History",
+   "Geography",
+   "Biodiversity",
+   "Yemen"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "SOCOTRA ISLAND",
+   "UNIQUE ENDEMICS"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Socotra"
+}

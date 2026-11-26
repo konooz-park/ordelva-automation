@@ -190,5 +190,30 @@
   "id": "20261125-g-bekli-tepe",
   "decision": "hold",
   "result": "hold"
+ },
+ {
+  "date": "2026-11-26",
+  "topic": "Tardigrade",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "'>' not supported between instances of 'str' and 'NoneType'"
+ },
+ {
+  "date": "2026-11-26",
+  "topic": "Denisovan",
+  "format": "short",
+  "kind": "auto",
+  "result": "error",
+  "error": "dictionary update sequence element #0 has length 1; 2 is required"
+ },
+ {
+  "date": "2026-11-26",
+  "topic": "Socotra",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261126-socotra",
+  "decision": "hold",
+  "result": "hold"
  }
 ]

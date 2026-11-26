@@ -1,0 +1,222 @@
+{
+ "id": "20261126-denisovan",
+ "format": "short",
+ "title": "Denisovan",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 679
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Denisovans, an extinct human species, roamed Siberia from 200,000 to 32,000 years ago.",
+   "say": "Denisovans, an extinct human species, roamed Siberia from 200,000 to 32,000 years ago.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/37120b7ee68c.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Found in Siberia's Denisova Cave, their DNA reveals dark skin and a distinct build.",
+   "say": "Found in Siberia's Denisova Cave, their DNA reveals dark skin and a distinct build.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/504311a7c51a.jpg",
+    "credit": "Thilo Parg / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Denisovans interbred with modern humans, influencing populations across Asia.",
+   "say": "Denisovans interbred with modern humans, influencing populations across Asia.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/6c5f5d7a20dd.jpg",
+    "credit": "Gary Todd / CC0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "say": "The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/9723b62e3c8c.jpg",
+    "credit": "Clumsystiggy / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Denisova Cave, in south-central Siberia, yielded the first Denisovan remains.",
+   "say": "Denisova Cave, in south-central Siberia, yielded the first Denisovan remains.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/37120b7ee68c.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Other Denisovans were found in caves in China and Laos, expanding their known range.",
+   "say": "Other Denisovans were found in caves in China and Laos, expanding their known range.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/79e7c8ed1e1a.jpg",
+    "credit": "Maximilian Dörrbecker (Chumwa) / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "No formal species name has been established, but they are closely related to Neanderthals.",
+   "say": "No formal species name has been established, but they are closely related to Neanderthals.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/37120b7ee68c.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Facts: The first Denisovan remains were found in Siberia's Denisova Cave, and DNA evidence suggests they had dark skin and a distinct build. They interbred with modern humans, with high levels of Denisovan DNA in Melanesians. The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "say": "Facts: The first Denisovan remains were found in Siberia's Denisova Cave, and DNA evidence suggests they had dark skin and a distinct build. They interbred with modern humans, with high levels of Denisovan DNA in Melanesians. The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-denisovan/media/37120b7ee68c.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "The first Denisovan remains were found in Siberia's Denisova Cave.",
+   "quote": "The first Denisovans discovered were known from few physical remains.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  },
+  {
+   "claim": "Denisovans interbred with modern humans, with high levels of Denisovan DNA in Melanesians.",
+   "quote": "Denisovans interbred with modern humans, with a high percentage (roughly 5%) of Denisovan DNA occurring in Melanesians, Aboriginal Australians, and Filipino Negritos.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  },
+  {
+   "claim": "The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "quote": "Fu et al. (2025) also retrieved 95 endogenous proteins from the same specimen, and suggested that H. longi can be confidently assigned to a Denisovan population.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Location map of China.\nEquiDistantConicProjection :\nCentral  parallel :\n\n* N: 36.0° N\n\nCentral meridian :\n\n* E: 104.0° E",
+   "source": "https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg",
+   "author": "Uwe Dedering",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Shaanxi Provincial Museum, Xi'an, Western Zhou Gallery. Complete indexed photo collection at WorldHistoryPics.com.",
+   "source": "https://commons.wikimedia.org/wiki/File:Dali_Man_Skull,_Replica.jpg",
+   "author": "Gary Todd",
+   "licence": "CC0"
+  },
+  {
+   "what": "Replica of a Denisovan molar, originally found in Denisova Cave in 2000, at the Museum of Natural Sciences in Brussels, ",
+   "source": "https://commons.wikimedia.org/wiki/File:Denisova_Molar.jpg",
+   "author": "Thilo Parg",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Profile of the Harbin cranium",
+   "source": "https://commons.wikimedia.org/wiki/File:Harbin_cranium_profile.png",
+   "author": "Clumsystiggy",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Map of Sunda and Sahul and the Wallace Line, the Lydekker Line and the Weber Line",
+   "source": "https://commons.wikimedia.org/wiki/File:Map_of_Sunda_and_Sahul.png",
+   "author": "Maximilian Dörrbecker (Chumwa)",
+   "licence": "CC BY-SA 3.0"
+  }
+ ],
+ "youtube": {
+  "title": "DENISOVANS #shorts",
+  "description": "Explore the mysterious Denisovans, an extinct human species who roamed Siberia. Follow ORDELVA for more fascinating mysteries of the past. #Denisovans #prehistoric #human evolution\n\nSources:\n- https://en.wikipedia.org/wiki/Denisovan\n\nImage credits (Wikimedia Commons):\n- Uwe Dedering – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg\n- Gary Todd – CC0 – https://commons.wikimedia.org/wiki/File:Dali_Man_Skull,_Replica.jpg\n- Thilo Parg – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Denisova_Molar.jpg\n- Clumsystiggy – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Harbin_cranium_profile.png\n- Maximilian Dörrbecker (Chumwa) – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Map_of_Sunda_and_Sahul.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Denisovans",
+   "prehistoric",
+   "human evolution",
+   "archaeology",
+   "ancient DNA",
+   "Neanderthals",
+   "Siberia",
+   "Asia"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "DENISOVANS",
+   "MYSTERIES UNEARTHE"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Denisovan"
+}

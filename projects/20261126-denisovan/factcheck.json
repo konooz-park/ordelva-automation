@@ -1,0 +1,48 @@
+{
+ "ok": false,
+ "problems": [
+  "statement without source: Other Denisovans were found in caves in China and Laos, expanding their known range. (The quote mentions that Denisovans are known to have lived in various regions in)"
+ ],
+ "details": [
+  {
+   "claim": "The first Denisovan remains were found in Siberia's Denisova Cave.",
+   "quote_found": true
+  },
+  {
+   "claim": "Denisovans interbred with modern humans, with high levels of Denisovan DNA in Melanesians.",
+   "quote_found": true
+  },
+  {
+   "claim": "The Harbin cranium, identified as Denisovan in 2025, confirms their presence in China.",
+   "quote_found": true
+  },
+  {
+   "number": "32000",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "200000",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "Denisovans, an extinct human species, roamed Siberia from 200,000 to 32,000 years ago.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "Denisovans had dark skin and a distinct build.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "Denisova Cave, in south-central Siberia, yielded the first Denisovan remains.",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "extra_statement": "Other Denisovans were found in caves in China and Laos, expanding their known range.",
+   "verdict": "UNCLEAR"
+  },
+  {
+   "extra_statement": "No formal species name has been established, but they are closely related to Neanderthals.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}

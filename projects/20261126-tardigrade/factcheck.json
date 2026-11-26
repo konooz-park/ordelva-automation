@@ -1,0 +1,26 @@
+{
+ "ok": true,
+ "problems": [],
+ "details": [
+  {
+   "claim": "Tardigrades were first described in 1773.",
+   "quote_found": true
+  },
+  {
+   "claim": "Tardigrades can survive exposure to space.",
+   "quote_found": true
+  },
+  {
+   "claim": "Tardigrades can endure extreme temperatures, dehydration, and vacuum.",
+   "quote_found": true
+  },
+  {
+   "number": "1500",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "extra_statement": "Their ability to enter a state of cryptobiosis allows them to withstand these harsh conditions.",
+   "verdict": "SUPPORTED"
+  }
+ ]
+}

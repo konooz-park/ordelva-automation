@@ -1,0 +1,223 @@
+{
+ "id": "20261126-tardigrade",
+ "format": "short",
+ "title": "Tardigrade",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 14
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Meet the tardigrade, a microscopic creature so resilient it can survive in space.",
+   "say": "Meet the tardigrade, a microscopic creature so resilient it can survive in space.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/084cf76eae30.jpg",
+    "credit": "Johann August Ephraim Goeze / Public domain"
+   },
+   "sfx": []
+  },
+  {
+   "text": "First described in 1773, tardigrades have survived extreme conditions, from freezing cold to intense heat.",
+   "say": "First described in 1773, tardigrades have survived extreme conditions, from freezing cold to intense heat.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/9d40f64a4c41.jpg",
+    "credit": "Jason Bond, Auburn University / CC BY 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "These tiny creatures can endure vacuum, dehydration, and even cosmic radiation, making them the ultimate survivors.",
+   "say": "These tiny creatures can endure vacuum, dehydration, and even cosmic radiation, making them the ultimate survivors.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/107a924898ed.jpg",
+    "credit": "Chiswick Chap / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 2007, tardigrades were sent into space, surviving exposure to ultraviolet radiation and vacuum.",
+   "say": "In 2007, tardigrades were sent into space, surviving exposure to ultraviolet radiation and vacuum.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/c91da4ce767f.jpg",
+    "credit": "Hnapel / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Their ability to enter a state of cryptobiosis allows them to withstand these harsh conditions.",
+   "say": "Their ability to enter a state of cryptobiosis allows them to withstand these harsh conditions.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/b25f50f4e6f5.jpg",
+    "credit": "FakirNL / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "From mosses and lichens, to the deep sea, tardigrades are found in diverse environments, thriving in extreme conditions.",
+   "say": "From mosses and lichens, to the deep sea, tardigrades are found in diverse environments, thriving in extreme conditions.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/8cf8f8e08809.jpg",
+    "credit": "E de Laplante / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "With over 1,500 known species, tardigrades are a testament to life's incredible resilience.",
+   "say": "With over 1,500 known species, tardigrades are a testament to life's incredible resilience.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261126-tardigrade/media/18f0d742ed4f.jpg",
+    "credit": "Chiswick Chap / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Tardigrades were first described in 1773.",
+   "quote": "Tardigrades were first described by the German zoologist Johann August Ephraim Goeze in 1773, who called them Kleiner Wasserbär 'little water bear'.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  },
+  {
+   "claim": "Tardigrades can survive exposure to space.",
+   "quote": "In 2007, samples of 30 tardigrades and 30 eggs, all dehydrated, were taken on the FOTON-M3 mission and exposed to vacuum, to both vacuum and UVA & B light, or to both vacuum and the full range of solar ultraviolet, for 10 days.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  },
+  {
+   "claim": "Tardigrades can endure extreme temperatures, dehydration, and vacuum.",
+   "quote": "Tardigrades are capable of suspending their metabolism, going into a state of cryptobiosis. Terrestrial and freshwater tardigrades are able to tolerate long periods when water is not available, such as when the moss or pond they are living in dries out, by drawing their legs in and forming a desiccated cyst, the cryptobiotic 'tun' state, where no metabolic activity takes place.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tardigrade"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "'Noah's Ark 3.0' by Arno Coenen, Eusebiuskerk, Arnhem, the Netherlands. Among others tardigrade, coronavirus, and sperm ",
+   "source": "https://commons.wikimedia.org/wiki/File:%27Ark_van_Noach_3.0%27_door_Arno_Coenen,_Eusebiuskerk,_Arnhem_01_(cropped).jpg",
+   "author": "FakirNL",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Live photograph, Aptostichus simus from Monterey County",
+   "source": "https://commons.wikimedia.org/wiki/File:Aptostichus_simus_Monterey_County.jpg",
+   "author": "Jason Bond, Auburn University",
+   "licence": "CC BY 3.0"
+  },
+  {
+   "what": "Experiment BIOPAN-5 onderdeel van de Foton-M2 missie waarbij korstmossen overleefden in de ruimte.",
+   "source": "https://commons.wikimedia.org/wiki/File:Biopan_Space_Expo_001.jpg",
+   "author": "Hnapel",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Echiniscus testudo on a grain of sand. Doyère called this species \"Emydium testudo\".",
+   "source": "https://commons.wikimedia.org/wiki/File:Echiniscus_testudo_Doyere_1840_Pl_12_Fig_1.png",
+   "author": "E de Laplante",
+   "licence": "Public domain"
+  },
+  {
+   "what": "The first recorded image of a tardigrade, 1773",
+   "source": "https://commons.wikimedia.org/wiki/File:First_Recorded_Image_of_Tardigrade.jpg",
+   "author": "Johann August Ephraim Goeze",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Isohypibius malawiensis Paratype",
+   "source": "https://commons.wikimedia.org/wiki/File:Isohypibius_malawiensis_Paratype.jpg",
+   "author": "Chiswick Chap",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Macrobiotus ovovittatus white background",
+   "source": "https://commons.wikimedia.org/wiki/File:Macrobiotus_ovovittatus_white_background.png",
+   "author": "Chiswick Chap",
+   "licence": "CC BY-SA 4.0"
+  }
+ ],
+ "youtube": {
+  "title": "Tardigrades: Surviving Space #shorts",
+  "description": "Meet the tardigrade, a microscopic creature so resilient it can survive in space. First described in 1773, these tiny creatures can endure extreme conditions. Follow ORDELVA for more.\n\nSources:\n- https://en.wikipedia.org/wiki/Tardigrade\n\nImage credits (Wikimedia Commons):\n- FakirNL – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:%27Ark_van_Noach_3.0%27_door_Arno_Coenen,_Eusebiuskerk,_Arnhem_01_(cropped).jpg\n- Jason Bond, Auburn University – CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Aptostichus_simus_Monterey_County.jpg\n- Hnapel – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Biopan_Space_Expo_001.jpg\n- E de Laplante – Public domain – https://commons.wikimedia.org/wiki/File:Echiniscus_testudo_Doyere_1840_Pl_12_Fig_1.png\n- Johann August Ephraim Goeze – Public domain – https://commons.wikimedia.org/wiki/File:First_Recorded_Image_of_Tardigrade.jpg\n- Chiswick Chap – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Isohypibius_malawiensis_Paratype.jpg\n- Chiswick Chap – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Macrobiotus_ovovittatus_white_background.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "tardigrade",
+   "water bear",
+   "resilience",
+   "space",
+   "extremophile",
+   "science",
+   "biology",
+   "microscopic",
+   "survival"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "TARDIGRADES",
+   "SURVIVING SPACE"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Tardigrade"
+}
