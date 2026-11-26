@@ -1,0 +1,229 @@
+{
+ "id": "20261125-stonehenge",
+ "format": "short",
+ "title": "Stonehenge",
+ "pillar": "history",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 207
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Stonehenge, a prehistoric wonder on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury.",
+   "say": "Stonehenge, a prehistoric wonder on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": []
+  },
+  {
+   "text": "Constructed in several phases, starting around 3100 BC and continuing until about 1600 BC.",
+   "say": "Constructed in several phases, starting around 3100 BC and continuing until about 1600 BC.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/7e6113a2193a.jpg",
+    "credit": "John Constable / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "The famous circle of large sarsen stones was placed between 2600 BC and 2400 BC.",
+   "say": "The famous circle of large sarsen stones was placed between 2600 BC and 2400 BC.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/9f8e16195e9c.jpg",
+    "credit": "garethwiscombe / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Inside, a ring of smaller bluestones from Wales.",
+   "say": "Inside, a ring of smaller bluestones from Wales.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/e3a435daa61c.jpg",
+    "credit": "Anthony Johnson / CC BY 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Radiocarbon dating suggests the bluestones were placed between 2400 and 2200 BC.",
+   "say": "Radiocarbon dating suggests the bluestones were placed between 2400 and 2200 BC.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/e3a435daa61c.jpg",
+    "credit": "Anthony Johnson / CC BY 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Burials from as early as 3000 BC have been found within the site.",
+   "say": "Burials from as early as 3000 BC have been found within the site.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/dc63bd464605.jpg",
+    "credit": "Heikki Immonen / CC BY 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Stonehenge is aligned towards the sunrise on the summer solstice, a feature unique among contemporary monuments.",
+   "say": "Stonehenge is aligned towards the sunrise on the summer solstice, a feature unique among contemporary monuments.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/26c57331a1a4.jpg",
+    "credit": "Royal Air Force / Public domain"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "A UNESCO World Heritage Site, Stonehenge is a British cultural icon, with a rich history spanning thousands of years.",
+   "say": "A UNESCO World Heritage Site, Stonehenge is a British cultural icon, with a rich history spanning thousands of years.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/9f8e16195e9c.jpg",
+    "credit": "garethwiscombe / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261125-stonehenge/media/9f8e16195e9c.jpg",
+    "credit": "garethwiscombe / CC BY 2.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Stonehenge was constructed in several phases, beginning about 3100 BC and continuing until about 1600 BC.",
+   "quote": "Stonehenge was constructed in several phases, beginning about 3100 BC and continuing until about 1600 BC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stonehenge"
+   ]
+  },
+  {
+   "claim": "The famous circle of large sarsen stones was placed between 2600 BC and 2400 BC.",
+   "quote": "The famous circle of large sarsen stones was placed between 2600 BC and 2400 BC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stonehenge"
+   ]
+  },
+  {
+   "claim": "Radiocarbon dating suggests the bluestones were placed between 2400 and 2200 BC.",
+   "quote": "Radiocarbon dating suggests the bluestones were placed between 2400 and 2200 BC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stonehenge"
+   ]
+  },
+  {
+   "claim": "Burials from as early as 3000 BC have been found within the site.",
+   "quote": "Burials from as early as 3000 BC have been found within the site.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stonehenge"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Constable - Stonehenge, 1629-1888, 2006AK8142.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Constable_-_Stonehenge,_1629-1888,_2006AK8142.jpg",
+   "author": "John Constable",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Plan of the central Stone Structure at Stonehenge as it survives today. Stone numbers are those conventionally used in t",
+   "source": "https://commons.wikimedia.org/wiki/File:Stone_Plan.jpg",
+   "author": "Anthony Johnson",
+   "licence": "CC BY 3.0"
+  },
+  {
+   "what": "Stonehenge",
+   "source": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
+   "author": "garethwiscombe",
+   "licence": "CC BY 2.0"
+  },
+  {
+   "what": "Stonehenge Heel Stone",
+   "source": "https://commons.wikimedia.org/wiki/File:Stonehenge_Heel_Stone_-_panoramio_(2).jpg",
+   "author": "Heikki Immonen",
+   "licence": "CC BY 3.0"
+  },
+  {
+   "what": "Aerial image of Stonehenge in 1928 looking towards former Stonehenge Aerodrome",
+   "source": "https://commons.wikimedia.org/wiki/File:Stonehenge_and_Aerodrome_1928.jpg",
+   "author": "Royal Air Force",
+   "licence": "Public domain"
+  }
+ ],
+ "youtube": {
+  "title": "Stonehenge: The History of a British Wonder #shorts",
+  "description": "Explore the mysterious history of Stonehenge, from its first construction around 3100 BC to its UNESCO World Heritage status. Follow ORDELVA for more.\n\nSources:\n- https://en.wikipedia.org/wiki/Stonehenge\n\nImage credits (Wikimedia Commons):\n- John Constable – Public domain – https://commons.wikimedia.org/wiki/File:Constable_-_Stonehenge,_1629-1888,_2006AK8142.jpg\n- Anthony Johnson – CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Stone_Plan.jpg\n- garethwiscombe – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg\n- Heikki Immonen – CC BY 3.0 – https://commons.wikimedia.org/wiki/File:Stonehenge_Heel_Stone_-_panoramio_(2).jpg\n- Royal Air Force – Public domain – https://commons.wikimedia.org/wiki/File:Stonehenge_and_Aerodrome_1928.jpg\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Stonehenge",
+   "Prehistory",
+   "British History",
+   "Archaeology",
+   "World Heritage Site",
+   "Ancient Monuments",
+   "Salisbury Plain",
+   "Wiltshire"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "STONEHENGE: MYSTER",
+   "UNESCO WORLD HERIT"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Stonehenge"
+}

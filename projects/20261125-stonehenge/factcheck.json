@@ -1,0 +1,32 @@
+{
+ "ok": false,
+ "problems": [
+  "quote not found in source: Burials from as early as 3000 BC have been found within the site."
+ ],
+ "details": [
+  {
+   "claim": "Stonehenge was constructed in several phases, beginning about 3100 BC and continuing until about 1600 BC.",
+   "quote_found": true
+  },
+  {
+   "claim": "The famous circle of large sarsen stones was placed between 2600 BC and 2400 BC.",
+   "quote_found": true
+  },
+  {
+   "claim": "Radiocarbon dating suggests the bluestones were placed between 2400 and 2200 BC.",
+   "quote_found": true
+  },
+  {
+   "claim": "Burials from as early as 3000 BC have been found within the site.",
+   "quote_found": false
+  },
+  {
+   "number": "3",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "3000",
+   "note": "in source text but not in a cited quote"
+  }
+ ]
+}

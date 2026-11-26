@@ -131,6 +131,42 @@
       "seconds": 72.37,
       "qa_passed": false,
       "lufs": -14.0
+    },
+    "20261125-machu-picchu": {
+      "id": "20261125-machu-picchu",
+      "created": "2026-11-25 22:37",
+      "title": "Machu Picchu",
+      "format": "short",
+      "status": "held",
+      "pillar": "history",
+      "updated": "2026-11-25 23:15",
+      "qa_failures": [
+        "narration has 90 words; required 95-160"
+      ]
+    },
+    "20261125-stonehenge": {
+      "id": "20261125-stonehenge",
+      "created": "2026-11-25 23:15",
+      "title": "Stonehenge",
+      "format": "short",
+      "status": "held",
+      "pillar": "history",
+      "updated": "2026-11-25 23:57",
+      "qa_failures": [
+        "quote not found in source: Burials from as early as 3000 BC have been found within the site."
+      ]
+    },
+    "20261125-g-bekli-tepe": {
+      "id": "20261125-g-bekli-tepe",
+      "created": "2026-11-25 23:57",
+      "title": "Göbekli Tepe",
+      "format": "short",
+      "status": "held",
+      "pillar": "history",
+      "updated": "2026-11-26 00:39",
+      "qa_failures": [
+        "narration has 69 words; required 95-160"
+      ]
     }
   },
   "errors": [

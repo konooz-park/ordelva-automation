@@ -163,5 +163,32 @@
   "kind": "auto",
   "result": "error",
   "error": "'>' not supported between instances of 'str' and 'NoneType'"
+ },
+ {
+  "date": "2026-11-25",
+  "topic": "Machu Picchu",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261125-machu-picchu",
+  "decision": "hold",
+  "result": "hold"
+ },
+ {
+  "date": "2026-11-25",
+  "topic": "Stonehenge",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261125-stonehenge",
+  "decision": "hold",
+  "result": "hold"
+ },
+ {
+  "date": "2026-11-25",
+  "topic": "Göbekli Tepe",
+  "format": "short",
+  "kind": "auto",
+  "id": "20261125-g-bekli-tepe",
+  "decision": "hold",
+  "result": "hold"
  }
 ]
