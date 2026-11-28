@@ -1,0 +1,191 @@
+{
+ "id": "20261127-denisovan",
+ "format": "short",
+ "title": "Denisovan",
+ "pillar": "science",
+ "voice": "bm_george",
+ "voice_lang": "en-gb",
+ "speed": 1.05,
+ "music": {
+  "mood": "mystery",
+  "seed": 303
+ },
+ "tail": 1.2,
+ "beats": [
+  {
+   "text": "Denisovans, a mysterious group of ancient humans, lived across Asia from Siberia to the Tibetan Plateau.",
+   "say": "Denisovans lived across Asia from Siberia to the Tibetan Plateau.",
+   "scene": {
+    "type": "title",
+    "title": "DENISOVAN",
+    "bg": {
+     "type": "image",
+     "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261127-denisovan/media/37120b7ee68c.jpg",
+     "note": false
+    }
+   },
+   "sfx": []
+  },
+  {
+   "text": "First identified in 2010 from a finger bone in Denisova Cave, Siberia, they spanned from 200,000 to 32,000 years ago.",
+   "say": "First identified in 2010 from a finger bone in Denisova Cave, Siberia, they spanned from 200,000 to 32,000 years ago.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261127-denisovan/media/37120b7ee68c.jpg",
+    "credit": "Uwe Dedering / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "In 2025, the Harbin cranium, identified as a Denisovan, revealed unique features, including dark skin and eyes, and a Neanderthal-like build.",
+   "say": "The Harbin cranium, identified as a Denisovan in 2025, shows unique features, including dark skin and eyes, and a Neanderthal-like build.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261127-denisovan/media/9723b62e3c8c.jpg",
+    "credit": "Clumsystiggy / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Denisovans interbred with modern humans, contributing to the genetic makeup of some populations, with up to 5% of Denisovan DNA in Melanesians and Aboriginal Australians.",
+   "say": "Denisovans interbred with modern humans, contributing to the genetic makeup of some populations, with up to 5% of Denisovan DNA in Melanesians and Aboriginal Australians.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261127-denisovan/media/78eaae2f04fb.jpg",
+    "credit": "Thilo Parg / CC BY-SA 3.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Excavations in China and Laos revealed additional Denisovan remains, including the Baishiya Karst Cave on the Tibetan Plateau and Tam Ngu Hao 2 Cave in the Annamite Mountains.",
+   "say": "Excavations in China and Laos revealed additional Denisovan remains, including the Baishiya Karst Cave on the Tibetan Plateau and Tam Ngu Hao 2 Cave in the Annamite Mountains.",
+   "scene": {
+    "type": "image",
+    "path": "/home/runner/work/ordelva-automation/ordelva-automation/projects/20261127-denisovan/media/25c36369a7f6.jpg",
+    "credit": "TaichungJohnny / CC BY-SA 4.0"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  },
+  {
+   "text": "Follow ORDELVA for more.",
+   "say": "Follow ORDELVA for more.",
+   "scene": {
+    "type": "landscape",
+    "mood": "dawn",
+    "label": "",
+    "disclaimer": "ILLUSTRATION"
+   },
+   "sfx": [
+    "whoosh"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "claim": "Denisovans lived across Asia from Siberia to the Tibetan Plateau.",
+   "quote": "Denisovans or Denisova hominins (də-NIS-ə-və(nz)) are an extinct species or subspecies of archaic human that ranged across Asia during the Middle to Late Pleistocene, approximately 200,000–32,000 years ago.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  },
+  {
+   "claim": "The Harbin cranium, identified as a Denisovan in 2025, shows unique features.",
+   "quote": "The Harbin cranium, which had been given the name Homo longi, showed that this skull represents a Denisovan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  },
+  {
+   "claim": "Denisovans had dark skin and eyes, and a Neanderthal-like build.",
+   "quote": "Based on the Harbin cranium, like other archaic humans, the skull is low and long, with massively developed brow ridges, wide eye sockets, and a large mouth. The two existing Denisovan mandibles show that, like Neanderthals, the Denisovans lacked a chin.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  },
+  {
+   "claim": "Denisovans interbred with modern humans, contributing to the genetic makeup of some populations.",
+   "quote": "Denisovans interbred with modern humans, with a high percentage (roughly 5%) of Denisovan DNA occurring in Melanesians, Aboriginal Australians, and Filipino Negritos.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denisovan"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "what": "Narration voice",
+   "source": "Kokoro-82M (hexgrad) via kokoro-onnx",
+   "licence": "Apache-2.0"
+  },
+  {
+   "what": "Music and sound effects",
+   "source": "ordelva/audio.py (original)",
+   "licence": "Owned by channel"
+  },
+  {
+   "what": "Maps",
+   "source": "NOAA ETOPO + GLOBE land mask",
+   "licence": "Public domain"
+  },
+  {
+   "what": "Fonts",
+   "source": "Cinzel, Montserrat, Anton",
+   "licence": "SIL Open Font License 1.1"
+  },
+  {
+   "what": "Location map of China.\nEquiDistantConicProjection :\nCentral  parallel :\n\n* N: 36.0° N\n\nCentral meridian :\n\n* E: 104.0° E",
+   "source": "https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg",
+   "author": "Uwe Dedering",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Replica of a Denisovan finger bone fragment, originally found in Denisova Cave in 2008, at the Museum of Natural Science",
+   "source": "https://commons.wikimedia.org/wiki/File:Denisova_Phalanx_distalis.jpg",
+   "author": "Thilo Parg",
+   "licence": "CC BY-SA 3.0"
+  },
+  {
+   "what": "Penghu 1 fossil mandible",
+   "source": "https://commons.wikimedia.org/wiki/File:Fossil_of_Mandible_of_Penghu_1.JPG",
+   "author": "TaichungJohnny",
+   "licence": "CC BY-SA 4.0"
+  },
+  {
+   "what": "Profile of the Harbin cranium",
+   "source": "https://commons.wikimedia.org/wiki/File:Harbin_cranium_profile.png",
+   "author": "Clumsystiggy",
+   "licence": "CC BY-SA 4.0"
+  }
+ ],
+ "youtube": {
+  "title": "DENISOVANS: Mysterious Humans of Asia #shorts",
+  "description": "From Siberia to the Tibetan Plateau, Denisovans lived for over 160,000 years. Follow ORDELVA for more.\n\nSources:\n- https://en.wikipedia.org/wiki/Denisovan\n\nImage credits (Wikimedia Commons):\n- Uwe Dedering – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg\n- Thilo Parg – CC BY-SA 3.0 – https://commons.wikimedia.org/wiki/File:Denisova_Phalanx_distalis.jpg\n- TaichungJohnny – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Fossil_of_Mandible_of_Penghu_1.JPG\n- Clumsystiggy – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Harbin_cranium_profile.png\n\nNarration: AI voice (Kokoro TTS). Music: original. Maps: NOAA ETOPO.",
+  "tags": [
+   "Denisovans",
+   "Ancient Humans",
+   "Asia",
+   "Siberia",
+   "Tibet",
+   "Genetics",
+   "Prehistory",
+   "Human Evolution"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false
+ },
+ "thumbnail": {
+  "lines": [
+   "DENISOVANS: MYSTER",
+   "LIVED ACROSS ASIA"
+  ]
+ },
+ "source_url": "https://en.wikipedia.org/wiki/Denisovan"
+}

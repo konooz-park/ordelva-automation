@@ -1,0 +1,34 @@
+{
+ "ok": true,
+ "problems": [],
+ "details": [
+  {
+   "claim": "Denisovans lived across Asia from Siberia to the Tibetan Plateau.",
+   "quote_found": true
+  },
+  {
+   "claim": "The Harbin cranium, identified as a Denisovan in 2025, shows unique features.",
+   "quote_found": true
+  },
+  {
+   "claim": "Denisovans had dark skin and eyes, and a Neanderthal-like build.",
+   "quote_found": true
+  },
+  {
+   "claim": "Denisovans interbred with modern humans, contributing to the genetic makeup of some populations.",
+   "quote_found": true
+  },
+  {
+   "number": "2010",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "2",
+   "note": "in source text but not in a cited quote"
+  },
+  {
+   "number": "2025",
+   "note": "in source text but not in a cited quote"
+  }
+ ]
+}
